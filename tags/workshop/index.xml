@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workshop on 20162-K3171 - Interaction Design: Interactivity: Journal</title>
+    <link>https://sunflowr.github.io/20162-k3171-journal/tags/workshop/</link>
+    <description>Recent content in Workshop on 20162-K3171 - Interaction Design: Interactivity: Journal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Sep 2016 21:22:16 +0200</lastBuildDate>
+    <atom:link href="https://sunflowr.github.io/20162-k3171-journal/tags/workshop/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2016-09-08</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/2016/09/08/2016-09-08</link>
+      <pubDate>Thu, 08 Sep 2016 21:22:16 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/2016/09/08/2016-09-08</guid>
+      <description>
+
+&lt;p&gt;Today I worked some on the coding, try to get a simple version of the idea up and running using HTML5 Canvas and Javascript. Currently there&amp;rsquo;s some issues with scaling making things look aliased.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s currently using manually added fake data from firebase as input.&lt;/p&gt;
+
+&lt;p&gt;The idea thus far seem to be that a listening device is represented as a &amp;lsquo;circle&amp;rsquo;. The size of this &amp;lsquo;circle&amp;rsquo; is determined by the amount of found devices. We probablt will need to add some form of scale factor determined from averaging the total found devices between all listeners.&lt;/p&gt;
+
+&lt;p&gt;Position and possible animation is not decided on yet.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/img/20160907/space.jpg&#34; alt=&#34;space&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;links&#34;&gt;Links&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/sunflowr/20162-k3171-module1&#34;&gt;github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://k3171-test.firebaseapp.com/&#34;&gt;app&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

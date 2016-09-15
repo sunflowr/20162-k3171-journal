@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>20162-K3171 - Interaction Design: Interactivity: Journal</title>
-    <link>https://sunflowr.github.io/20162-k3171-journal/</link>
-    <description>Recent content on 20162-K3171 - Interaction Design: Interactivity: Journal</description>
+    <title>Posts on 20162-K3171 - Interaction Design: Interactivity: Journal</title>
+    <link>https://sunflowr.github.io/20162-k3171-journal/post/</link>
+    <description>Recent content in Posts on 20162-K3171 - Interaction Design: Interactivity: Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 15 Sep 2016 00:31:56 +0200</lastBuildDate>
-    <atom:link href="https://sunflowr.github.io/20162-k3171-journal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sunflowr.github.io/20162-k3171-journal/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>2016-09-15: Update</title>
@@ -384,16 +384,6 @@
 &lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;section&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
-</description>
-    </item>
-    
-    <item>
-      <title>Blog Index</title>
-      <link>https://sunflowr.github.io/20162-k3171-journal/archive/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sunflowr.github.io/20162-k3171-journal/archive/</guid>
-      <description>&lt;p&gt;This is the text in the body of the markdown post.&lt;/p&gt;
 </description>
     </item>
     

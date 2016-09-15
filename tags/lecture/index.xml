@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture on 20162-K3171 - Interaction Design: Interactivity: Journal</title>
+    <link>https://sunflowr.github.io/20162-k3171-journal/tags/lecture/</link>
+    <description>Recent content in Lecture on 20162-K3171 - Interaction Design: Interactivity: Journal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Sep 2016 00:20:20 +0200</lastBuildDate>
+    <atom:link href="https://sunflowr.github.io/20162-k3171-journal/tags/lecture/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2016-09-07 - Project Presentation: Module 1</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/2016/09/08/2016-09-07---project-presentation-module-1</link>
+      <pubDate>Thu, 08 Sep 2016 00:20:20 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/2016/09/08/2016-09-07---project-presentation-module-1</guid>
+      <description>
+
+&lt;h3 id=&#34;project-description&#34;&gt;Project Description&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://fredrikpahlsson.wordpress.com/2016/09/07/relative-space-using-2d/&#34;&gt;from Fredrik&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In the 2D-illustration the space is created between the objects ”balls”. However the idea of the balls are dependent on the viewers perspective and relation to its surrounding. If you don’t have any relation to a object you will compare it to similar objects.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/img/20160907/space.jpg&#34; alt=&#34;space&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The balls can be viewed upon two ways. That the balls are the same size and they will seam to be more or less distant from the viewers point of view. i.e.a relation in depth. Or that the balls have different sizes and only relate to one and other.&lt;/p&gt;
+
+&lt;p&gt;The grid in the backgrund will enhance the feeling of depth and give the viewer a better idea of the balls relation to the space. This because the backgrund will work as a object itself.&lt;/p&gt;
+
+&lt;p&gt;In our project the each ball and color can represent a specific devise and the size by the collected amount of bluetooth signals.&lt;/p&gt;
+
+&lt;h3 id=&#34;lecture&#34;&gt;Lecture&lt;/h3&gt;
+
+&lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://ixd-res.clintio.us/&#34;&gt;clint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://firebase.google.com/&#34;&gt;firebase&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://k3171-test.firebaseapp.com/&#34;&gt;test&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2016-09-05</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/2016/09/05/2016-09-05</link>
+      <pubDate>Mon, 05 Sep 2016 11:23:20 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/2016/09/05/2016-09-05</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/img/20160905/ble-graphic2.png&#34; alt=&#34;bt-bt smart ready-bt smart&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;ideas&#34;&gt;Ideas&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Avoidance game. BT others is to be avoided.&lt;/li&gt;
+&lt;li&gt;Alien radar thing&lt;/li&gt;
+&lt;li&gt;Blindfold - audio/rumble feedback&lt;/li&gt;
+&lt;li&gt;The more devices the higher amplitude/frequency.&lt;/li&gt;
+&lt;li&gt;Space representation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;notes&#34;&gt;Notes:&lt;/h3&gt;
+
+&lt;h4 id=&#34;task-bluetooth-explore&#34;&gt;Task: Bluetooth - explore&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Distance&lt;/li&gt;
+&lt;li&gt;Obstruction&lt;/li&gt;
+&lt;li&gt;Get a feeling for material&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;sound&#34;&gt;Sound:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Molecule movement =&amp;gt; virbrations =&amp;gt; sound&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;difference-ir-vs-bt&#34;&gt;Difference IR vs BT:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Bluetooth: shorter wavelength =&amp;gt; Through walls, bend&lt;/li&gt;
+&lt;li&gt;Infrared: directional =&amp;gt; Can&amp;rsquo;t go through walls.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;questions&#34;&gt;Questions:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Where can I find bluetooth?&lt;/li&gt;
+&lt;li&gt;How much bluetooth devices is there in location X? (density)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;discussion-at-14-00&#34;&gt;Discussion at 14.00:&lt;/h4&gt;
+
+&lt;p&gt;Six aspects of coupling:&lt;/p&gt;
+
+&lt;p&gt;time, direction, &amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Where does it fit in? What can you do?&lt;/p&gt;
+
+&lt;p&gt;Feeling: Stimulation, security, meaning?&lt;/p&gt;
+
+&lt;p&gt;Interactive attribute: What does slow mean to this? Fast? Aspects of bluetooth in the now?&lt;/p&gt;
+
+&lt;p&gt;How do we feel? How can you build something for coupling people at difference spaces?&lt;/p&gt;
+
+&lt;p&gt;Different spaces - how do I feel that I&amp;rsquo;m on 4th floor. Feeling secure while in different places from eachother.&lt;/p&gt;
+
+&lt;h3 id=&#34;links&#34;&gt;Links:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/MahApp/Interactivity&#34;&gt;https://github.com/MahApp/Interactivity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://console.firebase.google.com/project/locationbt-8cfbc/database/data&#34;&gt;https://console.firebase.google.com/project/locationbt-8cfbc/database/data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;other-reading&#34;&gt;Other reading:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Received_signal_strength_indication&#34;&gt;RSSI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.quora.com/How-accurate-is-range-measurement-in-bluetooth-Smart&#34;&gt;BLE range&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;infographics&#34;&gt;Infographics&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/img/20160905/ble-indoor-positioning-infsoft.jpg&#34; alt=&#34;bt-bt smart ready-bt smart&#34; /&gt;
+&lt;a href=&#34;http://www.indoornavigation.com/wiki-en/indoor-navigation-using-bluetooth-ble-and-beacons&#34;&gt;http://www.indoornavigation.com/wiki-en/indoor-navigation-using-bluetooth-ble-and-beacons&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/img/20160905/gsbl_0101.png&#34; alt=&#34;bt-bt smart ready-bt smart&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2016-09-01: Module 1 introduction</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/2016/09/01/2016-09-01-module-1-introduction</link>
+      <pubDate>Thu, 01 Sep 2016 16:25:23 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/2016/09/01/2016-09-01-module-1-introduction</guid>
+      <description>
+
+&lt;h1 id=&#34;interactivity-module-1-intro-ni-b0308&#34;&gt;Interactivity &amp;amp; Module 1 Intro NI:B0308&lt;/h1&gt;
+
+&lt;h2 id=&#34;reading-1-wensveen-et-al-interaction-frogger-a-design-framework-to-couple-action-and-function-through-feedback&#34;&gt;Reading 1: Wensveen et al &amp;ldquo;Interaction Frogger: a Design framework to couple action and function through feedback&amp;rdquo;&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What are the challenges of natural coupling when it comes to interaction design?&lt;/li&gt;
+&lt;li&gt;Pick a non-digital tool and attempt to identify its six aspects of coupling.&lt;/li&gt;
+&lt;li&gt;Try the same with an app or physical product with digital interactivity&lt;/li&gt;
+&lt;li&gt;How do you think this work is useful for the designer?&lt;/li&gt;
+&lt;li&gt;What is the contribution of the paper? What new knowledge is it adding?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;note&#34;&gt;Note:&lt;/h2&gt;
+
+&lt;p&gt;Unfortunatelly I was sick this day so had to prepare from home.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2016-08-31</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/2016/08/31/2016-08-31</link>
+      <pubDate>Wed, 31 Aug 2016 16:25:33 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/2016/08/31/2016-08-31</guid>
+      <description>
+
+&lt;h1 id=&#34;interactivity-or-b441&#34;&gt;Interactivity OR:B441&lt;/h1&gt;
+
+&lt;h2 id=&#34;reading-1-lenz-et-al&#34;&gt;Reading 1: Lenz et al&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Write down concrete examples for each axis of the 11 dimensions (22 examples in total then)&lt;/li&gt;
+&lt;li&gt;Can you sketch alternatives? Eg design an alternative to a stepwise interaction that makes it fluent interaction&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;note&#34;&gt;Note:&lt;/h2&gt;
+
+&lt;p&gt;Unfortunatelly I was sick this day so had to prepare from home.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2016-08-29: Introduction day</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/2016/08/29/2016-08-29-introduction-day</link>
+      <pubDate>Mon, 29 Aug 2016 20:15:02 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/2016/08/29/2016-08-29-introduction-day</guid>
+      <description>
+
+&lt;h1 id=&#34;introductions-or-b441&#34;&gt;Introductions OR:B441&lt;/h1&gt;
+
+&lt;h2 id=&#34;reading-1-schön-design-as-reflective-conversation-with-the-materials-of-the-design-situation&#34;&gt;Reading 1: Schön - Design as Reflective Conversation with the Materials of the Design Situation&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;How does Schön describe the design knowledge?&lt;/li&gt;
+&lt;li&gt;Can you think of other examples of &amp;lsquo;knowing-in-action&amp;rsquo; from your every day life?&lt;/li&gt;
+&lt;li&gt;For Schön, what form does a &amp;lsquo;design situation&amp;rsquo; take, and how do we grasp it?&lt;/li&gt;
+&lt;li&gt;Briefly describe Schön&amp;rsquo;s account of seeing/moving/seeing&lt;/li&gt;
+&lt;li&gt;How do you think this process relates to sketching with digital materials, such as code?&lt;/li&gt;
+&lt;li&gt;How is progress made in a design situation, according to Schön?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

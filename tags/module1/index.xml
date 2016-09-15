@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Module1 on 20162-K3171 - Interaction Design: Interactivity: Journal</title>
+    <link>https://sunflowr.github.io/20162-k3171-journal/tags/module1/</link>
+    <description>Recent content in Module1 on 20162-K3171 - Interaction Design: Interactivity: Journal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Sep 2016 00:20:20 +0200</lastBuildDate>
+    <atom:link href="https://sunflowr.github.io/20162-k3171-journal/tags/module1/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2016-09-07 - Project Presentation: Module 1</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/2016/09/08/2016-09-07---project-presentation-module-1</link>
+      <pubDate>Thu, 08 Sep 2016 00:20:20 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/2016/09/08/2016-09-07---project-presentation-module-1</guid>
+      <description>
+
+&lt;h3 id=&#34;project-description&#34;&gt;Project Description&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://fredrikpahlsson.wordpress.com/2016/09/07/relative-space-using-2d/&#34;&gt;from Fredrik&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In the 2D-illustration the space is created between the objects ”balls”. However the idea of the balls are dependent on the viewers perspective and relation to its surrounding. If you don’t have any relation to a object you will compare it to similar objects.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/img/20160907/space.jpg&#34; alt=&#34;space&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The balls can be viewed upon two ways. That the balls are the same size and they will seam to be more or less distant from the viewers point of view. i.e.a relation in depth. Or that the balls have different sizes and only relate to one and other.&lt;/p&gt;
+
+&lt;p&gt;The grid in the backgrund will enhance the feeling of depth and give the viewer a better idea of the balls relation to the space. This because the backgrund will work as a object itself.&lt;/p&gt;
+
+&lt;p&gt;In our project the each ball and color can represent a specific devise and the size by the collected amount of bluetooth signals.&lt;/p&gt;
+
+&lt;h3 id=&#34;lecture&#34;&gt;Lecture&lt;/h3&gt;
+
+&lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://ixd-res.clintio.us/&#34;&gt;clint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://firebase.google.com/&#34;&gt;firebase&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://k3171-test.firebaseapp.com/&#34;&gt;test&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

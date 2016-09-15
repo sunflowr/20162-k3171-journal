@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>20162-K3171 - Interaction Design: Interactivity: Journal</title>
-    <link>https://sunflowr.github.io/20162-k3171-journal/</link>
-    <description>Recent content on 20162-K3171 - Interaction Design: Interactivity: Journal</description>
+    <title>Module1 on 20162-K3171 - Interaction Design: Interactivity: Journal</title>
+    <link>https://sunflowr.github.io/20162-k3171-journal/categories/module1/</link>
+    <description>Recent content in Module1 on 20162-K3171 - Interaction Design: Interactivity: Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 15 Sep 2016 00:31:56 +0200</lastBuildDate>
-    <atom:link href="https://sunflowr.github.io/20162-k3171-journal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sunflowr.github.io/20162-k3171-journal/categories/module1/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>2016-09-15: Update</title>
@@ -281,119 +281,6 @@
 &lt;/blockquote&gt;
 
 &lt;p&gt;Considering that humans are part of nature it must thus mean that anything we do can be seen as natural.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>2016-09-01: Module 1 introduction</title>
-      <link>https://sunflowr.github.io/20162-k3171-journal/2016/09/01/2016-09-01-module-1-introduction</link>
-      <pubDate>Thu, 01 Sep 2016 16:25:23 +0200</pubDate>
-      
-      <guid>https://sunflowr.github.io/20162-k3171-journal/2016/09/01/2016-09-01-module-1-introduction</guid>
-      <description>
-
-&lt;h1 id=&#34;interactivity-module-1-intro-ni-b0308&#34;&gt;Interactivity &amp;amp; Module 1 Intro NI:B0308&lt;/h1&gt;
-
-&lt;h2 id=&#34;reading-1-wensveen-et-al-interaction-frogger-a-design-framework-to-couple-action-and-function-through-feedback&#34;&gt;Reading 1: Wensveen et al &amp;ldquo;Interaction Frogger: a Design framework to couple action and function through feedback&amp;rdquo;&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;What are the challenges of natural coupling when it comes to interaction design?&lt;/li&gt;
-&lt;li&gt;Pick a non-digital tool and attempt to identify its six aspects of coupling.&lt;/li&gt;
-&lt;li&gt;Try the same with an app or physical product with digital interactivity&lt;/li&gt;
-&lt;li&gt;How do you think this work is useful for the designer?&lt;/li&gt;
-&lt;li&gt;What is the contribution of the paper? What new knowledge is it adding?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;note&#34;&gt;Note:&lt;/h2&gt;
-
-&lt;p&gt;Unfortunatelly I was sick this day so had to prepare from home.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>2016-08-31</title>
-      <link>https://sunflowr.github.io/20162-k3171-journal/2016/08/31/2016-08-31</link>
-      <pubDate>Wed, 31 Aug 2016 16:25:33 +0200</pubDate>
-      
-      <guid>https://sunflowr.github.io/20162-k3171-journal/2016/08/31/2016-08-31</guid>
-      <description>
-
-&lt;h1 id=&#34;interactivity-or-b441&#34;&gt;Interactivity OR:B441&lt;/h1&gt;
-
-&lt;h2 id=&#34;reading-1-lenz-et-al&#34;&gt;Reading 1: Lenz et al&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Write down concrete examples for each axis of the 11 dimensions (22 examples in total then)&lt;/li&gt;
-&lt;li&gt;Can you sketch alternatives? Eg design an alternative to a stepwise interaction that makes it fluent interaction&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;note&#34;&gt;Note:&lt;/h2&gt;
-
-&lt;p&gt;Unfortunatelly I was sick this day so had to prepare from home.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>2016-08-29: Introduction day</title>
-      <link>https://sunflowr.github.io/20162-k3171-journal/2016/08/29/2016-08-29-introduction-day</link>
-      <pubDate>Mon, 29 Aug 2016 20:15:02 +0200</pubDate>
-      
-      <guid>https://sunflowr.github.io/20162-k3171-journal/2016/08/29/2016-08-29-introduction-day</guid>
-      <description>
-
-&lt;h1 id=&#34;introductions-or-b441&#34;&gt;Introductions OR:B441&lt;/h1&gt;
-
-&lt;h2 id=&#34;reading-1-schön-design-as-reflective-conversation-with-the-materials-of-the-design-situation&#34;&gt;Reading 1: Schön - Design as Reflective Conversation with the Materials of the Design Situation&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;How does Schön describe the design knowledge?&lt;/li&gt;
-&lt;li&gt;Can you think of other examples of &amp;lsquo;knowing-in-action&amp;rsquo; from your every day life?&lt;/li&gt;
-&lt;li&gt;For Schön, what form does a &amp;lsquo;design situation&amp;rsquo; take, and how do we grasp it?&lt;/li&gt;
-&lt;li&gt;Briefly describe Schön&amp;rsquo;s account of seeing/moving/seeing&lt;/li&gt;
-&lt;li&gt;How do you think this process relates to sketching with digital materials, such as code?&lt;/li&gt;
-&lt;li&gt;How is progress made in a design situation, according to Schön?&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Introduction</title>
-      <link>https://sunflowr.github.io/20162-k3171-journal/2016/08/29/introduction</link>
-      <pubDate>Mon, 29 Aug 2016 18:43:19 +0200</pubDate>
-      
-      <guid>https://sunflowr.github.io/20162-k3171-journal/2016/08/29/introduction</guid>
-      <description>
-
-&lt;p&gt;Hello, this is my journal for the course &amp;ldquo;20162-K3171 - Interaction Design: Interactivity&amp;rdquo; at Malmö University.&lt;/p&gt;
-
-&lt;p&gt;Author: Johan Anderson, 2016&lt;/p&gt;
-
-&lt;h2 id=&#34;initial-thougths&#34;&gt;Initial thougths&lt;/h2&gt;
-
-&lt;p&gt;Confused&amp;hellip;&lt;/p&gt;
-
-&lt;h3 id=&#34;test&#34;&gt;test&lt;/h3&gt;
-
-&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;section&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;id&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;main&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;h1&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;id&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;title&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;gt;&lt;/span&gt;{{ .Title }}&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;h1&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;gt;&lt;/span&gt;
-    {{ range .Data.Pages }}
-      {{ .Render &amp;quot;summary&amp;quot;}}
-    {{ end }}
-  &lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;section&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Blog Index</title>
-      <link>https://sunflowr.github.io/20162-k3171-journal/archive/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sunflowr.github.io/20162-k3171-journal/archive/</guid>
-      <description>&lt;p&gt;This is the text in the body of the markdown post.&lt;/p&gt;
 </description>
     </item>
     

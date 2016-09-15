@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Progress on 20162-K3171 - Interaction Design: Interactivity: Journal</title>
+    <link>https://sunflowr.github.io/20162-k3171-journal/tags/progress/</link>
+    <description>Recent content in Progress on 20162-K3171 - Interaction Design: Interactivity: Journal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Sep 2016 01:31:15 +0200</lastBuildDate>
+    <atom:link href="https://sunflowr.github.io/20162-k3171-journal/tags/progress/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2016-09-14: Status update</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/2016/09/14/2016-09-14-status-update</link>
+      <pubDate>Wed, 14 Sep 2016 01:31:15 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/2016/09/14/2016-09-14-status-update</guid>
+      <description>
+
+&lt;h2 id=&#34;what-happened-yesterday&#34;&gt;What happened yesterday:&lt;/h2&gt;
+
+&lt;p&gt;Up until now we have tried to use the canvas objec together with javascript in order to draw the devices. During the day an idea to use CSS instead was formed and was later concived. The result so far looks promising and so far seem to help make the code a bit cleaner and easier to maintain.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/img/20160914/before.png&#34; alt=&#34;before&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The code used to fake found bt devices have also been updated, modularized and moved to it&amp;rsquo;s own javascript file (btdevice.js). This made the main code much cleaner and easier to get an overview of.&lt;/p&gt;
+
+&lt;p&gt;We tried changing the background image to one with a checker pattern to see how the perception changed. The feeling for the new background is positive and seem to give the viewer a better feeling of perspective.&lt;/p&gt;
+
+&lt;p&gt;With the newly changed code to use CSS for graphics it was also changed so the background also used CSS and a small test to animate the background was added.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/img/20160914/after.png&#34; alt=&#34;after&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;today&#34;&gt;Today:&lt;/h2&gt;
+
+&lt;p&gt;We added a new background with a centered grid instead to experiment how that would change the perception of depth.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

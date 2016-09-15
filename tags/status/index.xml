@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Status on 20162-K3171 - Interaction Design: Interactivity: Journal</title>
+    <link>https://sunflowr.github.io/20162-k3171-journal/tags/status/</link>
+    <description>Recent content in Status on 20162-K3171 - Interaction Design: Interactivity: Journal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Sep 2016 00:31:56 +0200</lastBuildDate>
+    <atom:link href="https://sunflowr.github.io/20162-k3171-journal/tags/status/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2016-09-15: Update</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/2016/09/15/2016-09-15-update</link>
+      <pubDate>Thu, 15 Sep 2016 00:31:56 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/2016/09/15/2016-09-15-update</guid>
+      <description>
+
+&lt;h2 id=&#34;what-was-done-yesterday&#34;&gt;What was done yesterday.&lt;/h2&gt;
+
+&lt;p&gt;We added a new background again to see if this could take us in the direction we wanted to go with the experience. To some extent it felt closer to the initial idea.&lt;/p&gt;
+
+&lt;p&gt;After the rewriting of rendering to use DOM/CSS instead of JS canvas there were further enhancements made today so the object resize as the background is &amp;ldquo;zoomed&amp;rdquo;, thus creating a feeling of depth.&lt;/p&gt;
+
+&lt;h3 id=&#34;issues&#34;&gt;Issues&lt;/h3&gt;
+
+&lt;p&gt;After trying with real data from the teachers firebase account it became clear that there might be some performance issues when rendering on a phone.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve done some small optimization but nothing that gives that needed boost.. the best option so far is to put a cap on amount of found devices to render.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-was-done-today&#34;&gt;What was done today&lt;/h2&gt;
+
+&lt;h3 id=&#34;result-so-far&#34;&gt;Result so far:&lt;/h3&gt;
+
+&lt;p&gt;2D vs 3D space:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/img/20160915/2d.png&#34; alt=&#34;2D space&#34; /&gt;
+&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/img/20160915/3d.png&#34; alt=&#34;3D space&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;current-status&#34;&gt;Current status&lt;/h3&gt;
+
+&lt;p&gt;Still a bit slow on mobile unfortunatelly, but good enough for demonstation I guess. We changed from infite animation to active on click/tap. When user interact we either go from 2D to 3D or 3D to 2D depending on current state.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
