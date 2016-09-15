@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>20162-K3171 - Interaction Design: Interactivity: Journal</title>
-    <link>http://20162-k3171.obsolete.se/</link>
+    <link>https://sunflowr.github.io/20162-k3171-journal/</link>
     <description>Recent content on 20162-K3171 - Interaction Design: Interactivity: Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://20162-k3171.obsolete.se/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sunflowr.github.io/20162-k3171-journal/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Blog Index</title>
-      <link>http://20162-k3171.obsolete.se/archive/</link>
+      <link>https://sunflowr.github.io/20162-k3171-journal/archive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://20162-k3171.obsolete.se/archive/</guid>
+      <guid>https://sunflowr.github.io/20162-k3171-journal/archive/</guid>
       <description>&lt;p&gt;This is the text in the body of the markdown post.&lt;/p&gt;
 </description>
     </item>
