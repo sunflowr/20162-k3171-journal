@@ -56,7 +56,7 @@
 
 &lt;p&gt;Up until now we have tried to use the canvas objec together with javascript in order to draw the devices. During the day an idea to use CSS instead was formed and was later concived. The result so far looks promising and so far seem to help make the code a bit cleaner and easier to maintain.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/img/20160914/before.png&#34; alt=&#34;before&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160914/before.png&#34; alt=&#34;before&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The code used to fake found bt devices have also been updated, modularized and moved to it&amp;rsquo;s own javascript file (btdevice.js). This made the main code much cleaner and easier to get an overview of.&lt;/p&gt;
 
@@ -64,7 +64,7 @@
 
 &lt;p&gt;With the newly changed code to use CSS for graphics it was also changed so the background also used CSS and a small test to animate the background was added.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/img/20160914/after.png&#34; alt=&#34;after&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160914/after.png&#34; alt=&#34;after&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;today&#34;&gt;Today:&lt;/h2&gt;
 
@@ -88,7 +88,7 @@
 
 &lt;p&gt;Position and possible animation is not decided on yet.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/img/20160907/space.jpg&#34; alt=&#34;space&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160907/space.jpg&#34; alt=&#34;space&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;links&#34;&gt;Links&lt;/h3&gt;
 
@@ -113,7 +113,7 @@
 
 &lt;p&gt;In the 2D-illustration the space is created between the objects ”balls”. However the idea of the balls are dependent on the viewers perspective and relation to its surrounding. If you don’t have any relation to a object you will compare it to similar objects.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/img/20160907/space.jpg&#34; alt=&#34;space&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160907/space.jpg&#34; alt=&#34;space&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The balls can be viewed upon two ways. That the balls are the same size and they will seam to be more or less distant from the viewers point of view. i.e.a relation in depth. Or that the balls have different sizes and only relate to one and other.&lt;/p&gt;
 
@@ -141,7 +141,7 @@
       <guid>https://sunflowr.github.io/20162-k3171-journal/post/20160905/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/img/20160905/ble-graphic2.png&#34; alt=&#34;bt-bt smart ready-bt smart&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160905/ble-graphic2.png&#34; alt=&#34;bt-bt smart ready-bt smart&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;ideas&#34;&gt;Ideas&lt;/h3&gt;
 
@@ -215,10 +215,10 @@
 
 &lt;h3 id=&#34;infographics&#34;&gt;Infographics&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/img/20160905/ble-indoor-positioning-infsoft.jpg&#34; alt=&#34;bt-bt smart ready-bt smart&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160905/ble-indoor-positioning-infsoft.jpg&#34; alt=&#34;bt-bt smart ready-bt smart&#34; /&gt;
 &lt;a href=&#34;http://www.indoornavigation.com/wiki-en/indoor-navigation-using-bluetooth-ble-and-beacons&#34;&gt;http://www.indoornavigation.com/wiki-en/indoor-navigation-using-bluetooth-ble-and-beacons&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/img/20160905/gsbl_0101.png&#34; alt=&#34;bt-bt smart ready-bt smart&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160905/gsbl_0101.png&#34; alt=&#34;bt-bt smart ready-bt smart&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
