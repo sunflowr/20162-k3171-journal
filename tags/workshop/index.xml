@@ -11,10 +11,10 @@
     
     <item>
       <title>2016-09-08</title>
-      <link>https://sunflowr.github.io/20162-k3171-journal/2016/09/08/2016-09-08</link>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20160908/</link>
       <pubDate>Thu, 08 Sep 2016 21:22:16 +0200</pubDate>
       
-      <guid>https://sunflowr.github.io/20162-k3171-journal/2016/09/08/2016-09-08</guid>
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20160908/</guid>
       <description>
 
 &lt;p&gt;Today I worked some on the coding, try to get a simple version of the idea up and running using HTML5 Canvas and Javascript. Currently there&amp;rsquo;s some issues with scaling making things look aliased.&lt;/p&gt;
