@@ -6,8 +6,39 @@
     <description>Recent content in Issues on 20162-K3171 - Interaction Design: Interactivity: Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Sep 2016 00:31:56 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 20 Sep 2016 22:07:36 +0200</lastBuildDate>
     <atom:link href="https://sunflowr.github.io/20162-k3171-journal/tags/issues/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Module 1 final thoughts</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20160920/</link>
+      <pubDate>Tue, 20 Sep 2016 22:07:36 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20160920/</guid>
+      <description>
+
+&lt;p&gt;Yesterday was the presentation. We meet up an hour before to sync and it was discovered that there was some issues in the prototype. Apparently something had changed in the data that we hadn&amp;rsquo;t taken into consideration (a registered device without any discovered devices). After fixing this we had a small sync and some coffee. After that it was time for presentation.&lt;/p&gt;
+
+&lt;h2 id=&#34;presentation&#34;&gt;Presentation&lt;/h2&gt;
+
+&lt;p&gt;While it seemed hard to understand our concept at first, I felt that the audience grasped somewhat in the end what we tried to explore. I guess that we had not found a good way of describing our prototype or the findings. Our concept was a bit abstract and on a meta level where we were more focusing on the idea of space.&lt;/p&gt;
+
+&lt;p&gt;We had some critique on the concepts use of bluetooth which I can in hindsight understand, as we focused more on exploring space and how things are interpreted.&lt;/p&gt;
+
+&lt;h3 id=&#34;things-to-consider-for-the-future&#34;&gt;Things to consider for the future&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;How do we present the findings?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;links&#34;&gt;Links&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/sunflowr/20162-k3171-module1&#34;&gt;github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://k3171-test.firebaseapp.com/&#34;&gt;app&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>2016-09-15: Update</title>
