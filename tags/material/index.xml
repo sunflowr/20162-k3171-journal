@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Material on 20162-K3171 - Interaction Design: Interactivity: Journal</title>
+    <link>https://sunflowr.github.io/20162-k3171-journal/tags/material/</link>
+    <description>Recent content in Material on 20162-K3171 - Interaction Design: Interactivity: Journal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Sep 2016 20:40:09 +0200</lastBuildDate>
+    <atom:link href="https://sunflowr.github.io/20162-k3171-journal/tags/material/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2016-09-23</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20160923/</link>
+      <pubDate>Fri, 23 Sep 2016 20:40:09 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20160923/</guid>
+      <description>&lt;p&gt;Today we mostly gathered the needed material - such as fabric and electronic hardware. Also did some research on how to implement the touch.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

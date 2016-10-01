@@ -6,8 +6,217 @@
     <description>Recent content on 20162-K3171 - Interaction Design: Interactivity: Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Sep 2016 22:07:36 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 30 Sep 2016 19:08:02 +0200</lastBuildDate>
     <atom:link href="https://sunflowr.github.io/20162-k3171-journal/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Presentation of Module2</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20160929/</link>
+      <pubDate>Fri, 30 Sep 2016 19:08:02 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20160929/</guid>
+      <description>
+
+&lt;p&gt;We meet up in the morning to test so everything worked, of course it didn&amp;rsquo;t.
+One important wire was broken and needed replacement and one vibrator wire needed to be re-attached.&lt;/p&gt;
+
+&lt;p&gt;After we confirmed everything as working we went to the presentation.&lt;/p&gt;
+
+&lt;h3 id=&#34;presentation&#34;&gt;Presentation&lt;/h3&gt;
+
+&lt;p&gt;While a bit nervous the presentation went fine. They seemed to think it was an interesting concept. Nothing really negative to say about it. They suggested taking a step back from our context and see in what other areas/context the idea could be used - to explore outside the context.&lt;/p&gt;
+
+&lt;p&gt;They seemed to like the idea of giving one of the user all the control (touch) while the other loosing the control (user with vibrator) having to rely on the other user.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2016-09-28: Status update</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20160928/</link>
+      <pubDate>Wed, 28 Sep 2016 16:48:07 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20160928/</guid>
+      <description>
+
+&lt;p&gt;Today we&amp;rsquo;ve worked some more on the prototype.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We attached the sensors and vibrators to the two cloth-pieces.&lt;/li&gt;
+&lt;li&gt;Added communication code using the &lt;a href=&#34;https://www.arduino.cc/en/Reference/Wire&#34;&gt;Wire Library&lt;/a&gt; for communication between the two Arduino devices.&lt;/li&gt;
+&lt;li&gt;Fixed battery adaptors for the Arduinos.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Social akwardness&lt;/li&gt;
+&lt;li&gt;Positive/negative feelings subjective - e.g. rollercoaster&amp;rsquo;s amount of scary-fun depends on the user.&lt;/li&gt;
+&lt;li&gt;Self sacrifice&lt;/li&gt;
+&lt;li&gt;Control frame - give user more control (more control good/bad? more control of other good/bad?)&lt;/li&gt;
+&lt;li&gt;Positive: Breaking ice&lt;/li&gt;
+&lt;li&gt;Negative: Making yourself center of attention / making fool of yoursef.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;issues&#34;&gt;Issues:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Having on Arduino power both of the devices seemed to draw too much current so we decided on using batteries for each device - this should hopefully fix the issue as it&amp;rsquo;s been tested before that one Arduino indeed can power all five vibrators.&lt;/li&gt;
+&lt;li&gt;We&amp;rsquo;ve been having issues with the lab wires send with the Arduinos - they seem to either be broken from beginning or breaking too easy. We&amp;rsquo;ve had to replace a few.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;resolved&#34;&gt;Resolved:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It seems the touch will be fine siting on the clothes as far as we&amp;rsquo;ve tested. No false positives.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Most stuff working</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20160927/</link>
+      <pubDate>Tue, 27 Sep 2016 22:01:58 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20160927/</guid>
+      <description>
+
+&lt;p&gt;Got some stuff done today:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Build the vibrator and touch circuits (see attached images)&lt;/li&gt;
+&lt;li&gt;Made the cloth-pieces (see attached images)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160927/vibc.png&#34; alt=&#34;Vibrator circuits&#34; /&gt;
+&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160927/touchc.png&#34; alt=&#34;Touch Circuit&#34; /&gt;
+&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160927/clothing.png&#34; alt=&#34;Cloth pieces&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;issues-thoughts&#34;&gt;Issues / thoughts:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Will there be any issue with false positives on the touch if the clothes are sitting too close to the skin of the user? Need to be tested!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;resolved&#34;&gt;Resolved:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The Arduino seem to be able to power all five vibrators without any problem.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Monday all the week</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20160926/</link>
+      <pubDate>Mon, 26 Sep 2016 21:40:34 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20160926/</guid>
+      <description>
+
+&lt;p&gt;Today&amp;rsquo;s work:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Prototyped the vibration and touch circuits to see if it would work.&lt;/li&gt;
+&lt;li&gt;We&amp;rsquo;re going to use capacitive touches and the &lt;a href=&#34;http://playground.arduino.cc/Main/CapacitiveSensor&#34;&gt;Capacitive Sensing Library&lt;/a&gt; for Arduino to handle this.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What is socially unacceptable dancing?&lt;/li&gt;
+&lt;li&gt;Acceptable/unacceptable dance roles/moves/behaviours?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;reasoning-of-concept&#34;&gt;Reasoning of concept&lt;/h4&gt;
+
+&lt;p&gt;Social awkwardness + akwardness = hapiness (?)&lt;/p&gt;
+
+&lt;p&gt;Being with people without having anything to talk about&lt;/p&gt;
+
+&lt;h4 id=&#34;target-group&#34;&gt;Target group&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Make the idea clear&lt;/li&gt;
+&lt;li&gt;Make it really negative - push it more&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;issues-thoughts&#34;&gt;Issues / thoughts:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Will the Arduino be able to power all the five vibrators at the same time?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2016-09-23</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20160923/</link>
+      <pubDate>Fri, 23 Sep 2016 20:40:09 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20160923/</guid>
+      <description>&lt;p&gt;Today we mostly gathered the needed material - such as fabric and electronic hardware. Also did some research on how to implement the touch.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Module2 kick-off</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20160922/</link>
+      <pubDate>Thu, 22 Sep 2016 20:18:08 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20160922/</guid>
+      <description>
+
+&lt;p&gt;Was feeling a bit better today so we meet up to talk about the project and do some initial plan for how we were going to work.&lt;/p&gt;
+
+&lt;p&gt;We decided on going with &amp;ldquo;Social Awkwardness&amp;rdquo;. Being in a environment when you don&amp;rsquo;t know what to talk about or how to get some connection to the other people there. Designing something to break the ice through self-sacrifice.&lt;/p&gt;
+
+&lt;p&gt;We had a bit of brain storming and came up with a few ideas:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Go away jeans - detect when offender try to touch users ass and react to it&lt;/li&gt;
+&lt;li&gt;Clapping glove - a glove that creates a synthesized clapping sound when user claps to exaggerate the clapping.&lt;/li&gt;
+&lt;li&gt;Nice comb - complements you while you&amp;rsquo;re combing your self&lt;/li&gt;
+&lt;li&gt;A dance suit that that with touch and vibration make the user do the macarena dance. &amp;lt;- This is the one we picked&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;dance-suit-thingy&#34;&gt;Dance suit thingy&lt;/h4&gt;
+
+&lt;p&gt;Should have vibrators and some way to feel touch at the same area as the vibrator.&lt;/p&gt;
+
+&lt;h3 id=&#34;notes-from-leture&#34;&gt;Notes from leture&lt;/h3&gt;
+
+&lt;p&gt;I2C physical limit ~40m&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Technology as a mean of expression&lt;/li&gt;
+&lt;li&gt;Body as a mean for communication&lt;/li&gt;
+&lt;li&gt;Interaction as expressive communication&lt;/li&gt;
+&lt;li&gt;Conductive paint as a way to interract&lt;/li&gt;
+&lt;li&gt;Use of skin touching skin (see attached image).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160922/skintouch.png&#34; alt=&#34;Skin touching skin circuit&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Steve_Mann&#34;&gt;Steve Mann, wearables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/Cyborg-Digital-Possibility-Wearable-Computer/dp/0385658265&#34;&gt;Cyborg: Digital Destiny and Human Possibility in the Age of the Wearable Computer - Book about wearables/cyborgs by Steve&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Moritz_Waldemeyer&#34;&gt;Moritz Waldemeyer, fashion/technology&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Hussein_Chalayan&#34;&gt;Hussein Chalayan, fashion/technology&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Module2 introduction</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20160921/</link>
+      <pubDate>Wed, 21 Sep 2016 16:48:07 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20160921/</guid>
+      <description>&lt;p&gt;Today was introduction to the new Module, unfortunately I was sick and missed it. Me and Ida decided to work on the module.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Module 1 final thoughts</title>
@@ -338,93 +547,6 @@
 &lt;h2 id=&#34;note&#34;&gt;Note:&lt;/h2&gt;
 
 &lt;p&gt;Unfortunatelly I was sick this day so had to prepare from home.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>2016-08-31</title>
-      <link>https://sunflowr.github.io/20162-k3171-journal/post/20160831/</link>
-      <pubDate>Wed, 31 Aug 2016 16:25:33 +0200</pubDate>
-      
-      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20160831/</guid>
-      <description>
-
-&lt;h1 id=&#34;interactivity-or-b441&#34;&gt;Interactivity OR:B441&lt;/h1&gt;
-
-&lt;h2 id=&#34;reading-1-lenz-et-al&#34;&gt;Reading 1: Lenz et al&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Write down concrete examples for each axis of the 11 dimensions (22 examples in total then)&lt;/li&gt;
-&lt;li&gt;Can you sketch alternatives? Eg design an alternative to a stepwise interaction that makes it fluent interaction&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;note&#34;&gt;Note:&lt;/h2&gt;
-
-&lt;p&gt;Unfortunatelly I was sick this day so had to prepare from home.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>2016-08-29: Introduction day</title>
-      <link>https://sunflowr.github.io/20162-k3171-journal/post/20160829/</link>
-      <pubDate>Mon, 29 Aug 2016 20:15:02 +0200</pubDate>
-      
-      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20160829/</guid>
-      <description>
-
-&lt;h1 id=&#34;introductions-or-b441&#34;&gt;Introductions OR:B441&lt;/h1&gt;
-
-&lt;h2 id=&#34;reading-1-schön-design-as-reflective-conversation-with-the-materials-of-the-design-situation&#34;&gt;Reading 1: Schön - Design as Reflective Conversation with the Materials of the Design Situation&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;How does Schön describe the design knowledge?&lt;/li&gt;
-&lt;li&gt;Can you think of other examples of &amp;lsquo;knowing-in-action&amp;rsquo; from your every day life?&lt;/li&gt;
-&lt;li&gt;For Schön, what form does a &amp;lsquo;design situation&amp;rsquo; take, and how do we grasp it?&lt;/li&gt;
-&lt;li&gt;Briefly describe Schön&amp;rsquo;s account of seeing/moving/seeing&lt;/li&gt;
-&lt;li&gt;How do you think this process relates to sketching with digital materials, such as code?&lt;/li&gt;
-&lt;li&gt;How is progress made in a design situation, according to Schön?&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Introduction</title>
-      <link>https://sunflowr.github.io/20162-k3171-journal/post/introduction/</link>
-      <pubDate>Mon, 29 Aug 2016 18:43:19 +0200</pubDate>
-      
-      <guid>https://sunflowr.github.io/20162-k3171-journal/post/introduction/</guid>
-      <description>
-
-&lt;p&gt;Hello, this is my journal for the course &amp;ldquo;20162-K3171 - Interaction Design: Interactivity&amp;rdquo; at Malmö University.&lt;/p&gt;
-
-&lt;p&gt;Author: Johan Anderson, 2016&lt;/p&gt;
-
-&lt;h2 id=&#34;initial-thougths&#34;&gt;Initial thougths&lt;/h2&gt;
-
-&lt;p&gt;Confused&amp;hellip;&lt;/p&gt;
-
-&lt;h3 id=&#34;test&#34;&gt;test&lt;/h3&gt;
-
-&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;section&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;id&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;main&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;h1&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;id&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;title&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;gt;&lt;/span&gt;{{ .Title }}&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;h1&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;gt;&lt;/span&gt;
-    {{ range .Data.Pages }}
-      {{ .Render &amp;quot;summary&amp;quot;}}
-    {{ end }}
-  &lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;section&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Blog Index</title>
-      <link>https://sunflowr.github.io/20162-k3171-journal/archive/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sunflowr.github.io/20162-k3171-journal/archive/</guid>
-      <description>&lt;p&gt;This is the text in the body of the markdown post.&lt;/p&gt;
 </description>
     </item>
     
