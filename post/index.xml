@@ -27,6 +27,13 @@ One important wire was broken and needed replacement and one vibrator wire neede
 &lt;p&gt;While a bit nervous the presentation went fine. They seemed to think it was an interesting concept. Nothing really negative to say about it. They suggested taking a step back from our context and see in what other areas/context the idea could be used - to explore outside the context.&lt;/p&gt;
 
 &lt;p&gt;They seemed to like the idea of giving one of the user all the control (touch) while the other loosing the control (user with vibrator) having to rely on the other user.&lt;/p&gt;
+
+&lt;h3 id=&#34;end-result&#34;&gt;End result&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160929/sensor.jpg&#34; alt=&#34;sensor clothing&#34; /&gt;
+&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160929/vibrator.jpg&#34; alt=&#34;vibrator clothing&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/sunflowr/school-stuff-20162-k3171---module2/&#34;&gt;github code&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -41,10 +48,13 @@ One important wire was broken and needed replacement and one vibrator wire neede
 &lt;p&gt;Today we&amp;rsquo;ve worked some more on the prototype.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;We attached the sensors and vibrators to the two cloth-pieces.&lt;/li&gt;
+&lt;li&gt;We attached the sensors and vibrators to the two cloth-pieces. (see attached image)&lt;/li&gt;
 &lt;li&gt;Added communication code using the &lt;a href=&#34;https://www.arduino.cc/en/Reference/Wire&#34;&gt;Wire Library&lt;/a&gt; for communication between the two Arduino devices.&lt;/li&gt;
 &lt;li&gt;Fixed battery adaptors for the Arduinos.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160928/svsketch.jpg&#34; alt=&#34;sensor and vibrator sketch&#34; /&gt;
+&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160928/vclothing.jpg&#34; alt=&#34;vibrator clothing&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
 
@@ -87,9 +97,9 @@ One important wire was broken and needed replacement and one vibrator wire neede
 &lt;li&gt;Made the cloth-pieces (see attached images)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160927/vibc.png&#34; alt=&#34;Vibrator circuits&#34; /&gt;
-&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160927/touchc.png&#34; alt=&#34;Touch Circuit&#34; /&gt;
-&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160927/clothing.png&#34; alt=&#34;Cloth pieces&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160927/vibc.jpg&#34; alt=&#34;Vibrator circuits&#34; /&gt;
+&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160927/touchc.jpg&#34; alt=&#34;Touch Circuit&#34; /&gt;
+&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160927/clothing.jpg&#34; alt=&#34;Cloth pieces&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;issues-thoughts&#34;&gt;Issues / thoughts:&lt;/h3&gt;
 
@@ -195,7 +205,7 @@ One important wire was broken and needed replacement and one vibrator wire neede
 &lt;li&gt;Use of skin touching skin (see attached image).&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160922/skintouch.png&#34; alt=&#34;Skin touching skin circuit&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160922/skintouch.jpg&#34; alt=&#34;Skin touching skin circuit&#34; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
 

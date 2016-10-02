@@ -20,10 +20,13 @@
 &lt;p&gt;Today we&amp;rsquo;ve worked some more on the prototype.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;We attached the sensors and vibrators to the two cloth-pieces.&lt;/li&gt;
+&lt;li&gt;We attached the sensors and vibrators to the two cloth-pieces. (see attached image)&lt;/li&gt;
 &lt;li&gt;Added communication code using the &lt;a href=&#34;https://www.arduino.cc/en/Reference/Wire&#34;&gt;Wire Library&lt;/a&gt; for communication between the two Arduino devices.&lt;/li&gt;
 &lt;li&gt;Fixed battery adaptors for the Arduinos.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160928/svsketch.jpg&#34; alt=&#34;sensor and vibrator sketch&#34; /&gt;
+&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160928/vclothing.jpg&#34; alt=&#34;vibrator clothing&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
 
@@ -66,9 +69,9 @@
 &lt;li&gt;Made the cloth-pieces (see attached images)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160927/vibc.png&#34; alt=&#34;Vibrator circuits&#34; /&gt;
-&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160927/touchc.png&#34; alt=&#34;Touch Circuit&#34; /&gt;
-&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160927/clothing.png&#34; alt=&#34;Cloth pieces&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160927/vibc.jpg&#34; alt=&#34;Vibrator circuits&#34; /&gt;
+&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160927/touchc.jpg&#34; alt=&#34;Touch Circuit&#34; /&gt;
+&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160927/clothing.jpg&#34; alt=&#34;Cloth pieces&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;issues-thoughts&#34;&gt;Issues / thoughts:&lt;/h3&gt;
 
@@ -164,7 +167,7 @@
 &lt;li&gt;Use of skin touching skin (see attached image).&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160922/skintouch.png&#34; alt=&#34;Skin touching skin circuit&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160922/skintouch.jpg&#34; alt=&#34;Skin touching skin circuit&#34; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
 
