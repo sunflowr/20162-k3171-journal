@@ -107,159 +107,315 @@
 			<div class="posts">
 	
 	
-	<div class="post-teaser">
-		<header>
-			<h1>
-			<a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160928/">
-				2016-09-28: Status update
-			</a>
-			</h1>
-			<p class="meta">
-				September 28, 2016 &middot; 1 minute read
-			</p>
-		</header>
-		<div class="excerpt">
-			
-				Today we&rsquo;ve worked some more on the prototype. We attached the sensors and vibrators to the two cloth-pieces. (see attached image) Added communication code using the Wire Library for communication between the two Arduino devices. Fixed battery adaptors for the Arduinos. Notes Social akwardness Positive/negative feelings subjective - e.g. rollercoaster&rsquo;s amount of scary-fun depends on the user. Self sacrifice Control frame - give user more control (more control good/bad? more control of other good/bad?) Positive: Breaking ice Negative: Making yourself center of attention / making fool of yoursef.
-			
-			<br>
-			<a class="button" href="https://sunflowr.github.io/20162-k3171-journal/post/20160928/">
-				Continue reading
-			</a>
-		</div>
-	</div>
+	<div class="post-content">
+    <article>
+      <header>
+        <h1>
+          <a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160928/">
+            2016-09-28: Status update
+          </a>
+        </h1>
+        <p class="meta">
+          September 28, 2016 &middot; 1 minute read
+        </p>
+      </header>
+      <section class="post-content">
+        
+
+<p>Today we&rsquo;ve worked some more on the prototype.</p>
+
+<ul>
+<li>We attached the sensors and vibrators to the two cloth-pieces. (see attached image)</li>
+<li>Added communication code using the <a href="https://www.arduino.cc/en/Reference/Wire">Wire Library</a> for communication between the two Arduino devices.</li>
+<li>Fixed battery adaptors for the Arduinos.</li>
+</ul>
+
+<p><img src="/20162-k3171-journal/img/20160928/svsketch.jpg" alt="sensor and vibrator sketch" />
+<img src="/20162-k3171-journal/img/20160928/vclothing.jpg" alt="vibrator clothing" /></p>
+
+<h3 id="notes">Notes</h3>
+
+<ul>
+<li>Social akwardness</li>
+<li>Positive/negative feelings subjective - e.g. rollercoaster&rsquo;s amount of scary-fun depends on the user.</li>
+<li>Self sacrifice</li>
+<li>Control frame - give user more control (more control good/bad? more control of other good/bad?)</li>
+<li>Positive: Breaking ice</li>
+<li>Negative: Making yourself center of attention / making fool of yoursef.</li>
+</ul>
+
+<h3 id="issues">Issues:</h3>
+
+<ul>
+<li>Having on Arduino power both of the devices seemed to draw too much current so we decided on using batteries for each device - this should hopefully fix the issue as it&rsquo;s been tested before that one Arduino indeed can power all five vibrators.</li>
+<li>We&rsquo;ve been having issues with the lab wires send with the Arduinos - they seem to either be broken from beginning or breaking too easy. We&rsquo;ve had to replace a few.</li>
+</ul>
+
+<h3 id="resolved">Resolved:</h3>
+
+<ul>
+<li>It seems the touch will be fine siting on the clothes as far as we&rsquo;ve tested. No false positives.</li>
+</ul>
+
+      </section>
+    </article>
+  </div>
 	
-	<div class="post-teaser">
-		<header>
-			<h1>
-			<a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160927/">
-				Most stuff working
-			</a>
-			</h1>
-			<p class="meta">
-				September 27, 2016 &middot; 1 minute read
-			</p>
-		</header>
-		<div class="excerpt">
-			
-				Got some stuff done today: Build the vibrator and touch circuits (see attached images) Made the cloth-pieces (see attached images) Issues / thoughts: Will there be any issue with false positives on the touch if the clothes are sitting too close to the skin of the user? Need to be tested! Resolved: The Arduino seem to be able to power all five vibrators without any problem.
-			
-			<br>
-			<a class="button" href="https://sunflowr.github.io/20162-k3171-journal/post/20160927/">
-				Continue reading
-			</a>
-		</div>
-	</div>
+	<div class="post-content">
+    <article>
+      <header>
+        <h1>
+          <a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160927/">
+            Most stuff working
+          </a>
+        </h1>
+        <p class="meta">
+          September 27, 2016 &middot; 1 minute read
+        </p>
+      </header>
+      <section class="post-content">
+        
+
+<p>Got some stuff done today:</p>
+
+<ul>
+<li>Build the vibrator and touch circuits (see attached images)</li>
+<li>Made the cloth-pieces (see attached images)</li>
+</ul>
+
+<p><img src="/20162-k3171-journal/img/20160927/vibc.jpg" alt="Vibrator circuits" />
+<img src="/20162-k3171-journal/img/20160927/touchc.jpg" alt="Touch Circuit" />
+<img src="/20162-k3171-journal/img/20160927/clothing.jpg" alt="Cloth pieces" /></p>
+
+<h3 id="issues-thoughts">Issues / thoughts:</h3>
+
+<ul>
+<li>Will there be any issue with false positives on the touch if the clothes are sitting too close to the skin of the user? Need to be tested!</li>
+</ul>
+
+<h3 id="resolved">Resolved:</h3>
+
+<ul>
+<li>The Arduino seem to be able to power all five vibrators without any problem.</li>
+</ul>
+
+      </section>
+    </article>
+  </div>
 	
-	<div class="post-teaser">
-		<header>
-			<h1>
-			<a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160926/">
-				Monday all the week
-			</a>
-			</h1>
-			<p class="meta">
-				September 26, 2016 &middot; 1 minute read
-			</p>
-		</header>
-		<div class="excerpt">
-			
-				Today&rsquo;s work: Prototyped the vibration and touch circuits to see if it would work. We&rsquo;re going to use capacitive touches and the Capacitive Sensing Library for Arduino to handle this. Notes What is socially unacceptable dancing? Acceptable/unacceptable dance roles/moves/behaviours? Reasoning of concept Social awkwardness + akwardness = hapiness (?) Being with people without having anything to talk about Target group Make the idea clear Make it really negative - push it more Issues / thoughts: Will the Arduino be able to power all the five vibrators at the same time?
-			
-			<br>
-			<a class="button" href="https://sunflowr.github.io/20162-k3171-journal/post/20160926/">
-				Continue reading
-			</a>
-		</div>
-	</div>
+	<div class="post-content">
+    <article>
+      <header>
+        <h1>
+          <a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160926/">
+            Monday all the week
+          </a>
+        </h1>
+        <p class="meta">
+          September 26, 2016 &middot; 1 minute read
+        </p>
+      </header>
+      <section class="post-content">
+        
+
+<p>Today&rsquo;s work:</p>
+
+<ul>
+<li>Prototyped the vibration and touch circuits to see if it would work.</li>
+<li>We&rsquo;re going to use capacitive touches and the <a href="http://playground.arduino.cc/Main/CapacitiveSensor">Capacitive Sensing Library</a> for Arduino to handle this.</li>
+</ul>
+
+<h3 id="notes">Notes</h3>
+
+<ul>
+<li>What is socially unacceptable dancing?</li>
+<li>Acceptable/unacceptable dance roles/moves/behaviours?</li>
+</ul>
+
+<h4 id="reasoning-of-concept">Reasoning of concept</h4>
+
+<p>Social awkwardness + akwardness = hapiness (?)</p>
+
+<p>Being with people without having anything to talk about</p>
+
+<h4 id="target-group">Target group</h4>
+
+<ul>
+<li>Make the idea clear</li>
+<li>Make it really negative - push it more</li>
+</ul>
+
+<h3 id="issues-thoughts">Issues / thoughts:</h3>
+
+<ul>
+<li>Will the Arduino be able to power all the five vibrators at the same time?</li>
+</ul>
+
+      </section>
+    </article>
+  </div>
 	
-	<div class="post-teaser">
-		<header>
-			<h1>
-			<a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160923/">
-				2016-09-23
-			</a>
-			</h1>
-			<p class="meta">
-				September 23, 2016 &middot; 1 minute read
-			</p>
-		</header>
-		<div class="excerpt">
-			
-				Today we mostly gathered the needed material - such as fabric and electronic hardware. Also did some research on how to implement the touch.
-			
-			<br>
-			<a class="button" href="https://sunflowr.github.io/20162-k3171-journal/post/20160923/">
-				Continue reading
-			</a>
-		</div>
-	</div>
+	<div class="post-content">
+    <article>
+      <header>
+        <h1>
+          <a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160923/">
+            2016-09-23
+          </a>
+        </h1>
+        <p class="meta">
+          September 23, 2016 &middot; 1 minute read
+        </p>
+      </header>
+      <section class="post-content">
+        <p>Today we mostly gathered the needed material - such as fabric and electronic hardware. Also did some research on how to implement the touch.</p>
+
+      </section>
+    </article>
+  </div>
 	
-	<div class="post-teaser">
-		<header>
-			<h1>
-			<a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160922/">
-				Module2 kick-off
-			</a>
-			</h1>
-			<p class="meta">
-				September 22, 2016 &middot; 2 minute read
-			</p>
-		</header>
-		<div class="excerpt">
-			
-				Was feeling a bit better today so we meet up to talk about the project and do some initial plan for how we were going to work. We decided on going with &ldquo;Social Awkwardness&rdquo;. Being in a environment when you don&rsquo;t know what to talk about or how to get some connection to the other people there. Designing something to break the ice through self-sacrifice. We had a bit of brain storming and came up with a few ideas: Go away jeans - detect when offender try to touch users ass and react to it Clapping glove - a glove that creates a synthesized clapping sound when user claps to exaggerate the clapping.
-			
-			<br>
-			<a class="button" href="https://sunflowr.github.io/20162-k3171-journal/post/20160922/">
-				Continue reading
-			</a>
-		</div>
-	</div>
+	<div class="post-content">
+    <article>
+      <header>
+        <h1>
+          <a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160922/">
+            Module2 kick-off
+          </a>
+        </h1>
+        <p class="meta">
+          September 22, 2016 &middot; 2 minute read
+        </p>
+      </header>
+      <section class="post-content">
+        
+
+<p>Was feeling a bit better today so we meet up to talk about the project and do some initial plan for how we were going to work.</p>
+
+<p>We decided on going with &ldquo;Social Awkwardness&rdquo;. Being in a environment when you don&rsquo;t know what to talk about or how to get some connection to the other people there. Designing something to break the ice through self-sacrifice.</p>
+
+<p>We had a bit of brain storming and came up with a few ideas:</p>
+
+<ul>
+<li>Go away jeans - detect when offender try to touch users ass and react to it</li>
+<li>Clapping glove - a glove that creates a synthesized clapping sound when user claps to exaggerate the clapping.</li>
+<li>Nice comb - complements you while you&rsquo;re combing your self</li>
+<li>A dance suit that that with touch and vibration make the user do the macarena dance. &lt;- This is the one we picked</li>
+</ul>
+
+<h4 id="dance-suit-thingy">Dance suit thingy</h4>
+
+<p>Should have vibrators and some way to feel touch at the same area as the vibrator.</p>
+
+<h3 id="notes-from-leture">Notes from leture</h3>
+
+<p>I2C physical limit ~40m</p>
+
+<ul>
+<li>Technology as a mean of expression</li>
+<li>Body as a mean for communication</li>
+<li>Interaction as expressive communication</li>
+<li>Conductive paint as a way to interract</li>
+<li>Use of skin touching skin (see attached image).</li>
+</ul>
+
+<p><img src="/20162-k3171-journal/img/20160922/skintouch.jpg" alt="Skin touching skin circuit" /></p>
+
+<h4 id="links">Links</h4>
+
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Steve_Mann">Steve Mann, wearables</a></li>
+<li><a href="https://www.amazon.com/Cyborg-Digital-Possibility-Wearable-Computer/dp/0385658265">Cyborg: Digital Destiny and Human Possibility in the Age of the Wearable Computer - Book about wearables/cyborgs by Steve</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Moritz_Waldemeyer">Moritz Waldemeyer, fashion/technology</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Hussein_Chalayan">Hussein Chalayan, fashion/technology</a></li>
+</ul>
+
+      </section>
+    </article>
+  </div>
 	
-	<div class="post-teaser">
-		<header>
-			<h1>
-			<a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160920/">
-				Module 1 final thoughts
-			</a>
-			</h1>
-			<p class="meta">
-				September 20, 2016 &middot; 1 minute read
-			</p>
-		</header>
-		<div class="excerpt">
-			
-				Yesterday was the presentation. We meet up an hour before to sync and it was discovered that there was some issues in the prototype. Apparently something had changed in the data that we hadn&rsquo;t taken into consideration (a registered device without any discovered devices). After fixing this we had a small sync and some coffee. After that it was time for presentation. Presentation While it seemed hard to understand our concept at first, I felt that the audience grasped somewhat in the end what we tried to explore.
-			
-			<br>
-			<a class="button" href="https://sunflowr.github.io/20162-k3171-journal/post/20160920/">
-				Continue reading
-			</a>
-		</div>
-	</div>
+	<div class="post-content">
+    <article>
+      <header>
+        <h1>
+          <a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160920/">
+            Module 1 final thoughts
+          </a>
+        </h1>
+        <p class="meta">
+          September 20, 2016 &middot; 1 minute read
+        </p>
+      </header>
+      <section class="post-content">
+        
+
+<p>Yesterday was the presentation. We meet up an hour before to sync and it was discovered that there was some issues in the prototype. Apparently something had changed in the data that we hadn&rsquo;t taken into consideration (a registered device without any discovered devices). After fixing this we had a small sync and some coffee. After that it was time for presentation.</p>
+
+<h2 id="presentation">Presentation</h2>
+
+<p>While it seemed hard to understand our concept at first, I felt that the audience grasped somewhat in the end what we tried to explore. I guess that we had not found a good way of describing our prototype or the findings. Our concept was a bit abstract and on a meta level where we were more focusing on the idea of space.</p>
+
+<p>We had some critique on the concepts use of bluetooth which I can in hindsight understand, as we focused more on exploring space and how things are interpreted.</p>
+
+<h3 id="things-to-consider-for-the-future">Things to consider for the future</h3>
+
+<ul>
+<li>How do we present the findings?</li>
+</ul>
+
+<h3 id="links">Links</h3>
+
+<ul>
+<li><a href="https://github.com/sunflowr/20162-k3171-module1">github</a></li>
+<li><a href="https://k3171-test.firebaseapp.com/">app</a></li>
+</ul>
+
+      </section>
+    </article>
+  </div>
 	
-	<div class="post-teaser">
-		<header>
-			<h1>
-			<a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160915/">
-				2016-09-15: Update
-			</a>
-			</h1>
-			<p class="meta">
-				September 15, 2016 &middot; 1 minute read
-			</p>
-		</header>
-		<div class="excerpt">
-			
-				What was done yesterday. We added a new background again to see if this could take us in the direction we wanted to go with the experience. To some extent it felt closer to the initial idea. After the rewriting of rendering to use DOM/CSS instead of JS canvas there were further enhancements made today so the object resize as the background is &ldquo;zoomed&rdquo;, thus creating a feeling of depth. Issues After trying with real data from the teachers firebase account it became clear that there might be some performance issues when rendering on a phone.
-			
-			<br>
-			<a class="button" href="https://sunflowr.github.io/20162-k3171-journal/post/20160915/">
-				Continue reading
-			</a>
-		</div>
-	</div>
+	<div class="post-content">
+    <article>
+      <header>
+        <h1>
+          <a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160915/">
+            2016-09-15: Update
+          </a>
+        </h1>
+        <p class="meta">
+          September 15, 2016 &middot; 1 minute read
+        </p>
+      </header>
+      <section class="post-content">
+        
+
+<h2 id="what-was-done-yesterday">What was done yesterday.</h2>
+
+<p>We added a new background again to see if this could take us in the direction we wanted to go with the experience. To some extent it felt closer to the initial idea.</p>
+
+<p>After the rewriting of rendering to use DOM/CSS instead of JS canvas there were further enhancements made today so the object resize as the background is &ldquo;zoomed&rdquo;, thus creating a feeling of depth.</p>
+
+<h3 id="issues">Issues</h3>
+
+<p>After trying with real data from the teachers firebase account it became clear that there might be some performance issues when rendering on a phone.</p>
+
+<p>I&rsquo;ve done some small optimization but nothing that gives that needed boost.. the best option so far is to put a cap on amount of found devices to render.</p>
+
+<h2 id="what-was-done-today">What was done today</h2>
+
+<h3 id="result-so-far">Result so far:</h3>
+
+<p>2D vs 3D space:</p>
+
+<p><img src="/20162-k3171-journal/img/20160915/2d.png" alt="2D space" />
+<img src="/20162-k3171-journal/img/20160915/3d.png" alt="3D space" /></p>
+
+<h3 id="current-status">Current status</h3>
+
+<p>Still a bit slow on mobile unfortunatelly, but good enough for demonstation I guess. We changed from infite animation to active on click/tap. When user interact we either go from 2D to 3D or 3D to 2D depending on current state.</p>
+
+      </section>
+    </article>
+  </div>
 	
 </div>
 

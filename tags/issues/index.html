@@ -107,49 +107,89 @@
 			<div class="posts">
 	
 	
-	<div class="post-teaser">
-		<header>
-			<h1>
-			<a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160920/">
-				Module 1 final thoughts
-			</a>
-			</h1>
-			<p class="meta">
-				September 20, 2016 &middot; 1 minute read
-			</p>
-		</header>
-		<div class="excerpt">
-			
-				Yesterday was the presentation. We meet up an hour before to sync and it was discovered that there was some issues in the prototype. Apparently something had changed in the data that we hadn&rsquo;t taken into consideration (a registered device without any discovered devices). After fixing this we had a small sync and some coffee. After that it was time for presentation. Presentation While it seemed hard to understand our concept at first, I felt that the audience grasped somewhat in the end what we tried to explore.
-			
-			<br>
-			<a class="button" href="https://sunflowr.github.io/20162-k3171-journal/post/20160920/">
-				Continue reading
-			</a>
-		</div>
-	</div>
+	<div class="post-content">
+    <article>
+      <header>
+        <h1>
+          <a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160920/">
+            Module 1 final thoughts
+          </a>
+        </h1>
+        <p class="meta">
+          September 20, 2016 &middot; 1 minute read
+        </p>
+      </header>
+      <section class="post-content">
+        
+
+<p>Yesterday was the presentation. We meet up an hour before to sync and it was discovered that there was some issues in the prototype. Apparently something had changed in the data that we hadn&rsquo;t taken into consideration (a registered device without any discovered devices). After fixing this we had a small sync and some coffee. After that it was time for presentation.</p>
+
+<h2 id="presentation">Presentation</h2>
+
+<p>While it seemed hard to understand our concept at first, I felt that the audience grasped somewhat in the end what we tried to explore. I guess that we had not found a good way of describing our prototype or the findings. Our concept was a bit abstract and on a meta level where we were more focusing on the idea of space.</p>
+
+<p>We had some critique on the concepts use of bluetooth which I can in hindsight understand, as we focused more on exploring space and how things are interpreted.</p>
+
+<h3 id="things-to-consider-for-the-future">Things to consider for the future</h3>
+
+<ul>
+<li>How do we present the findings?</li>
+</ul>
+
+<h3 id="links">Links</h3>
+
+<ul>
+<li><a href="https://github.com/sunflowr/20162-k3171-module1">github</a></li>
+<li><a href="https://k3171-test.firebaseapp.com/">app</a></li>
+</ul>
+
+      </section>
+    </article>
+  </div>
 	
-	<div class="post-teaser">
-		<header>
-			<h1>
-			<a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160915/">
-				2016-09-15: Update
-			</a>
-			</h1>
-			<p class="meta">
-				September 15, 2016 &middot; 1 minute read
-			</p>
-		</header>
-		<div class="excerpt">
-			
-				What was done yesterday. We added a new background again to see if this could take us in the direction we wanted to go with the experience. To some extent it felt closer to the initial idea. After the rewriting of rendering to use DOM/CSS instead of JS canvas there were further enhancements made today so the object resize as the background is &ldquo;zoomed&rdquo;, thus creating a feeling of depth. Issues After trying with real data from the teachers firebase account it became clear that there might be some performance issues when rendering on a phone.
-			
-			<br>
-			<a class="button" href="https://sunflowr.github.io/20162-k3171-journal/post/20160915/">
-				Continue reading
-			</a>
-		</div>
-	</div>
+	<div class="post-content">
+    <article>
+      <header>
+        <h1>
+          <a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160915/">
+            2016-09-15: Update
+          </a>
+        </h1>
+        <p class="meta">
+          September 15, 2016 &middot; 1 minute read
+        </p>
+      </header>
+      <section class="post-content">
+        
+
+<h2 id="what-was-done-yesterday">What was done yesterday.</h2>
+
+<p>We added a new background again to see if this could take us in the direction we wanted to go with the experience. To some extent it felt closer to the initial idea.</p>
+
+<p>After the rewriting of rendering to use DOM/CSS instead of JS canvas there were further enhancements made today so the object resize as the background is &ldquo;zoomed&rdquo;, thus creating a feeling of depth.</p>
+
+<h3 id="issues">Issues</h3>
+
+<p>After trying with real data from the teachers firebase account it became clear that there might be some performance issues when rendering on a phone.</p>
+
+<p>I&rsquo;ve done some small optimization but nothing that gives that needed boost.. the best option so far is to put a cap on amount of found devices to render.</p>
+
+<h2 id="what-was-done-today">What was done today</h2>
+
+<h3 id="result-so-far">Result so far:</h3>
+
+<p>2D vs 3D space:</p>
+
+<p><img src="/20162-k3171-journal/img/20160915/2d.png" alt="2D space" />
+<img src="/20162-k3171-journal/img/20160915/3d.png" alt="3D space" /></p>
+
+<h3 id="current-status">Current status</h3>
+
+<p>Still a bit slow on mobile unfortunatelly, but good enough for demonstation I guess. We changed from infite animation to active on click/tap. When user interact we either go from 2D to 3D or 3D to 2D depending on current state.</p>
+
+      </section>
+    </article>
+  </div>
 	
 </div>
 

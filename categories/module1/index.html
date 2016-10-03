@@ -107,159 +107,374 @@
 			<div class="posts">
 	
 	
-	<div class="post-teaser">
-		<header>
-			<h1>
-			<a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160920/">
-				Module 1 final thoughts
-			</a>
-			</h1>
-			<p class="meta">
-				September 20, 2016 &middot; 1 minute read
-			</p>
-		</header>
-		<div class="excerpt">
-			
-				Yesterday was the presentation. We meet up an hour before to sync and it was discovered that there was some issues in the prototype. Apparently something had changed in the data that we hadn&rsquo;t taken into consideration (a registered device without any discovered devices). After fixing this we had a small sync and some coffee. After that it was time for presentation. Presentation While it seemed hard to understand our concept at first, I felt that the audience grasped somewhat in the end what we tried to explore.
-			
-			<br>
-			<a class="button" href="https://sunflowr.github.io/20162-k3171-journal/post/20160920/">
-				Continue reading
-			</a>
-		</div>
-	</div>
+	<div class="post-content">
+    <article>
+      <header>
+        <h1>
+          <a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160920/">
+            Module 1 final thoughts
+          </a>
+        </h1>
+        <p class="meta">
+          September 20, 2016 &middot; 1 minute read
+        </p>
+      </header>
+      <section class="post-content">
+        
+
+<p>Yesterday was the presentation. We meet up an hour before to sync and it was discovered that there was some issues in the prototype. Apparently something had changed in the data that we hadn&rsquo;t taken into consideration (a registered device without any discovered devices). After fixing this we had a small sync and some coffee. After that it was time for presentation.</p>
+
+<h2 id="presentation">Presentation</h2>
+
+<p>While it seemed hard to understand our concept at first, I felt that the audience grasped somewhat in the end what we tried to explore. I guess that we had not found a good way of describing our prototype or the findings. Our concept was a bit abstract and on a meta level where we were more focusing on the idea of space.</p>
+
+<p>We had some critique on the concepts use of bluetooth which I can in hindsight understand, as we focused more on exploring space and how things are interpreted.</p>
+
+<h3 id="things-to-consider-for-the-future">Things to consider for the future</h3>
+
+<ul>
+<li>How do we present the findings?</li>
+</ul>
+
+<h3 id="links">Links</h3>
+
+<ul>
+<li><a href="https://github.com/sunflowr/20162-k3171-module1">github</a></li>
+<li><a href="https://k3171-test.firebaseapp.com/">app</a></li>
+</ul>
+
+      </section>
+    </article>
+  </div>
 	
-	<div class="post-teaser">
-		<header>
-			<h1>
-			<a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160915/">
-				2016-09-15: Update
-			</a>
-			</h1>
-			<p class="meta">
-				September 15, 2016 &middot; 1 minute read
-			</p>
-		</header>
-		<div class="excerpt">
-			
-				What was done yesterday. We added a new background again to see if this could take us in the direction we wanted to go with the experience. To some extent it felt closer to the initial idea. After the rewriting of rendering to use DOM/CSS instead of JS canvas there were further enhancements made today so the object resize as the background is &ldquo;zoomed&rdquo;, thus creating a feeling of depth. Issues After trying with real data from the teachers firebase account it became clear that there might be some performance issues when rendering on a phone.
-			
-			<br>
-			<a class="button" href="https://sunflowr.github.io/20162-k3171-journal/post/20160915/">
-				Continue reading
-			</a>
-		</div>
-	</div>
+	<div class="post-content">
+    <article>
+      <header>
+        <h1>
+          <a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160915/">
+            2016-09-15: Update
+          </a>
+        </h1>
+        <p class="meta">
+          September 15, 2016 &middot; 1 minute read
+        </p>
+      </header>
+      <section class="post-content">
+        
+
+<h2 id="what-was-done-yesterday">What was done yesterday.</h2>
+
+<p>We added a new background again to see if this could take us in the direction we wanted to go with the experience. To some extent it felt closer to the initial idea.</p>
+
+<p>After the rewriting of rendering to use DOM/CSS instead of JS canvas there were further enhancements made today so the object resize as the background is &ldquo;zoomed&rdquo;, thus creating a feeling of depth.</p>
+
+<h3 id="issues">Issues</h3>
+
+<p>After trying with real data from the teachers firebase account it became clear that there might be some performance issues when rendering on a phone.</p>
+
+<p>I&rsquo;ve done some small optimization but nothing that gives that needed boost.. the best option so far is to put a cap on amount of found devices to render.</p>
+
+<h2 id="what-was-done-today">What was done today</h2>
+
+<h3 id="result-so-far">Result so far:</h3>
+
+<p>2D vs 3D space:</p>
+
+<p><img src="/20162-k3171-journal/img/20160915/2d.png" alt="2D space" />
+<img src="/20162-k3171-journal/img/20160915/3d.png" alt="3D space" /></p>
+
+<h3 id="current-status">Current status</h3>
+
+<p>Still a bit slow on mobile unfortunatelly, but good enough for demonstation I guess. We changed from infite animation to active on click/tap. When user interact we either go from 2D to 3D or 3D to 2D depending on current state.</p>
+
+      </section>
+    </article>
+  </div>
 	
-	<div class="post-teaser">
-		<header>
-			<h1>
-			<a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160914/">
-				2016-09-14: Status update
-			</a>
-			</h1>
-			<p class="meta">
-				September 14, 2016 &middot; 1 minute read
-			</p>
-		</header>
-		<div class="excerpt">
-			
-				What happened yesterday: Up until now we have tried to use the canvas objec together with javascript in order to draw the devices. During the day an idea to use CSS instead was formed and was later concived. The result so far looks promising and so far seem to help make the code a bit cleaner and easier to maintain. The code used to fake found bt devices have also been updated, modularized and moved to it&rsquo;s own javascript file (btdevice.js).
-			
-			<br>
-			<a class="button" href="https://sunflowr.github.io/20162-k3171-journal/post/20160914/">
-				Continue reading
-			</a>
-		</div>
-	</div>
+	<div class="post-content">
+    <article>
+      <header>
+        <h1>
+          <a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160914/">
+            2016-09-14: Status update
+          </a>
+        </h1>
+        <p class="meta">
+          September 14, 2016 &middot; 1 minute read
+        </p>
+      </header>
+      <section class="post-content">
+        
+
+<h2 id="what-happened-yesterday">What happened yesterday:</h2>
+
+<p>Up until now we have tried to use the canvas objec together with javascript in order to draw the devices. During the day an idea to use CSS instead was formed and was later concived. The result so far looks promising and so far seem to help make the code a bit cleaner and easier to maintain.</p>
+
+<p><img src="/20162-k3171-journal/img/20160914/before.png" alt="before" /></p>
+
+<p>The code used to fake found bt devices have also been updated, modularized and moved to it&rsquo;s own javascript file (btdevice.js). This made the main code much cleaner and easier to get an overview of.</p>
+
+<p>We tried changing the background image to one with a checker pattern to see how the perception changed. The feeling for the new background is positive and seem to give the viewer a better feeling of perspective.</p>
+
+<p>With the newly changed code to use CSS for graphics it was also changed so the background also used CSS and a small test to animate the background was added.</p>
+
+<p><img src="/20162-k3171-journal/img/20160914/after.png" alt="after" /></p>
+
+<h2 id="today">Today:</h2>
+
+<p>We added a new background with a centered grid instead to experiment how that would change the perception of depth.</p>
+
+      </section>
+    </article>
+  </div>
 	
-	<div class="post-teaser">
-		<header>
-			<h1>
-			<a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160908/">
-				2016-09-08
-			</a>
-			</h1>
-			<p class="meta">
-				September 8, 2016 &middot; 1 minute read
-			</p>
-		</header>
-		<div class="excerpt">
-			
-				Today I worked some on the coding, try to get a simple version of the idea up and running using HTML5 Canvas and Javascript. Currently there&rsquo;s some issues with scaling making things look aliased. It&rsquo;s currently using manually added fake data from firebase as input. The idea thus far seem to be that a listening device is represented as a &lsquo;circle&rsquo;. The size of this &lsquo;circle&rsquo; is determined by the amount of found devices.
-			
-			<br>
-			<a class="button" href="https://sunflowr.github.io/20162-k3171-journal/post/20160908/">
-				Continue reading
-			</a>
-		</div>
-	</div>
+	<div class="post-content">
+    <article>
+      <header>
+        <h1>
+          <a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160908/">
+            2016-09-08
+          </a>
+        </h1>
+        <p class="meta">
+          September 8, 2016 &middot; 1 minute read
+        </p>
+      </header>
+      <section class="post-content">
+        
+
+<p>Today I worked some on the coding, try to get a simple version of the idea up and running using HTML5 Canvas and Javascript. Currently there&rsquo;s some issues with scaling making things look aliased.</p>
+
+<p>It&rsquo;s currently using manually added fake data from firebase as input.</p>
+
+<p>The idea thus far seem to be that a listening device is represented as a &lsquo;circle&rsquo;. The size of this &lsquo;circle&rsquo; is determined by the amount of found devices. We probablt will need to add some form of scale factor determined from averaging the total found devices between all listeners.</p>
+
+<p>Position and possible animation is not decided on yet.</p>
+
+<p><img src="/20162-k3171-journal/img/20160907/space.jpg" alt="space" /></p>
+
+<h3 id="links">Links</h3>
+
+<ul>
+<li><a href="https://github.com/sunflowr/20162-k3171-module1">github</a></li>
+<li><a href="https://k3171-test.firebaseapp.com/">app</a></li>
+</ul>
+
+      </section>
+    </article>
+  </div>
 	
-	<div class="post-teaser">
-		<header>
-			<h1>
-			<a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160907/">
-				2016-09-07 - Project Presentation: Module 1
-			</a>
-			</h1>
-			<p class="meta">
-				September 8, 2016 &middot; 1 minute read
-			</p>
-		</header>
-		<div class="excerpt">
-			
-				Project Description from Fredrik In the 2D-illustration the space is created between the objects ”balls”. However the idea of the balls are dependent on the viewers perspective and relation to its surrounding. If you don’t have any relation to a object you will compare it to similar objects. The balls can be viewed upon two ways. That the balls are the same size and they will seam to be more or less distant from the viewers point of view.
-			
-			<br>
-			<a class="button" href="https://sunflowr.github.io/20162-k3171-journal/post/20160907/">
-				Continue reading
-			</a>
-		</div>
-	</div>
+	<div class="post-content">
+    <article>
+      <header>
+        <h1>
+          <a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160907/">
+            2016-09-07 - Project Presentation: Module 1
+          </a>
+        </h1>
+        <p class="meta">
+          September 8, 2016 &middot; 1 minute read
+        </p>
+      </header>
+      <section class="post-content">
+        
+
+<h3 id="project-description">Project Description</h3>
+
+<p><a href="https://fredrikpahlsson.wordpress.com/2016/09/07/relative-space-using-2d/">from Fredrik</a></p>
+
+<p>In the 2D-illustration the space is created between the objects ”balls”. However the idea of the balls are dependent on the viewers perspective and relation to its surrounding. If you don’t have any relation to a object you will compare it to similar objects.</p>
+
+<p><img src="/20162-k3171-journal/img/20160907/space.jpg" alt="space" /></p>
+
+<p>The balls can be viewed upon two ways. That the balls are the same size and they will seam to be more or less distant from the viewers point of view. i.e.a relation in depth. Or that the balls have different sizes and only relate to one and other.</p>
+
+<p>The grid in the backgrund will enhance the feeling of depth and give the viewer a better idea of the balls relation to the space. This because the backgrund will work as a object itself.</p>
+
+<p>In our project the each ball and color can represent a specific devise and the size by the collected amount of bluetooth signals.</p>
+
+<h3 id="lecture">Lecture</h3>
+
+<h4 id="links">Links</h4>
+
+<ul>
+<li><a href="http://ixd-res.clintio.us/">clint</a></li>
+<li><a href="https://firebase.google.com/">firebase</a></li>
+<li><a href="https://k3171-test.firebaseapp.com/">test</a></li>
+</ul>
+
+      </section>
+    </article>
+  </div>
 	
-	<div class="post-teaser">
-		<header>
-			<h1>
-			<a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160905/">
-				2016-09-05
-			</a>
-			</h1>
-			<p class="meta">
-				September 5, 2016 &middot; 1 minute read
-			</p>
-		</header>
-		<div class="excerpt">
-			
-				Ideas Avoidance game. BT others is to be avoided. Alien radar thing Blindfold - audio/rumble feedback The more devices the higher amplitude/frequency. Space representation. Notes: Task: Bluetooth - explore Distance Obstruction Get a feeling for material Sound: Molecule movement =&gt; virbrations =&gt; sound Difference IR vs BT: Bluetooth: shorter wavelength =&gt; Through walls, bend Infrared: directional =&gt; Can&rsquo;t go through walls. Questions: Where can I find bluetooth? How much bluetooth devices is there in location X?
-			
-			<br>
-			<a class="button" href="https://sunflowr.github.io/20162-k3171-journal/post/20160905/">
-				Continue reading
-			</a>
-		</div>
-	</div>
+	<div class="post-content">
+    <article>
+      <header>
+        <h1>
+          <a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160905/">
+            2016-09-05
+          </a>
+        </h1>
+        <p class="meta">
+          September 5, 2016 &middot; 1 minute read
+        </p>
+      </header>
+      <section class="post-content">
+        
+
+<p><img src="/20162-k3171-journal/img/20160905/ble-graphic2.png" alt="bt-bt smart ready-bt smart" /></p>
+
+<h3 id="ideas">Ideas</h3>
+
+<ul>
+<li>Avoidance game. BT others is to be avoided.</li>
+<li>Alien radar thing</li>
+<li>Blindfold - audio/rumble feedback</li>
+<li>The more devices the higher amplitude/frequency.</li>
+<li>Space representation.</li>
+</ul>
+
+<h3 id="notes">Notes:</h3>
+
+<h4 id="task-bluetooth-explore">Task: Bluetooth - explore</h4>
+
+<ul>
+<li>Distance</li>
+<li>Obstruction</li>
+<li>Get a feeling for material</li>
+</ul>
+
+<h4 id="sound">Sound:</h4>
+
+<ul>
+<li>Molecule movement =&gt; virbrations =&gt; sound</li>
+</ul>
+
+<h4 id="difference-ir-vs-bt">Difference IR vs BT:</h4>
+
+<ul>
+<li>Bluetooth: shorter wavelength =&gt; Through walls, bend</li>
+<li>Infrared: directional =&gt; Can&rsquo;t go through walls.</li>
+</ul>
+
+<h4 id="questions">Questions:</h4>
+
+<ul>
+<li>Where can I find bluetooth?</li>
+<li>How much bluetooth devices is there in location X? (density)</li>
+</ul>
+
+<h4 id="discussion-at-14-00">Discussion at 14.00:</h4>
+
+<p>Six aspects of coupling:</p>
+
+<p>time, direction, &hellip;</p>
+
+<p>Where does it fit in? What can you do?</p>
+
+<p>Feeling: Stimulation, security, meaning?</p>
+
+<p>Interactive attribute: What does slow mean to this? Fast? Aspects of bluetooth in the now?</p>
+
+<p>How do we feel? How can you build something for coupling people at difference spaces?</p>
+
+<p>Different spaces - how do I feel that I&rsquo;m on 4th floor. Feeling secure while in different places from eachother.</p>
+
+<h3 id="links">Links:</h3>
+
+<ul>
+<li><a href="https://github.com/MahApp/Interactivity">https://github.com/MahApp/Interactivity</a></li>
+<li><a href="https://console.firebase.google.com/project/locationbt-8cfbc/database/data">https://console.firebase.google.com/project/locationbt-8cfbc/database/data</a></li>
+</ul>
+
+<h3 id="other-reading">Other reading:</h3>
+
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Received_signal_strength_indication">RSSI</a></li>
+<li><a href="https://www.quora.com/How-accurate-is-range-measurement-in-bluetooth-Smart">BLE range</a></li>
+</ul>
+
+<h3 id="infographics">Infographics</h3>
+
+<p><img src="/20162-k3171-journal/img/20160905/ble-indoor-positioning-infsoft.jpg" alt="bt-bt smart ready-bt smart" />
+<a href="http://www.indoornavigation.com/wiki-en/indoor-navigation-using-bluetooth-ble-and-beacons">http://www.indoornavigation.com/wiki-en/indoor-navigation-using-bluetooth-ble-and-beacons</a></p>
+
+<p><img src="/20162-k3171-journal/img/20160905/gsbl_0101.png" alt="bt-bt smart ready-bt smart" /></p>
+
+      </section>
+    </article>
+  </div>
 	
-	<div class="post-teaser">
-		<header>
-			<h1>
-			<a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/pre-week2/">
-				Pre-week2
-			</a>
-			</h1>
-			<p class="meta">
-				September 4, 2016 &middot; 2 minute read
-			</p>
-		</header>
-		<div class="excerpt">
-			
-				Fridays work: Material for creating an spatial experience Read the sources below and continue to explore how this can help you create a spatial experience. Perhaps a productive way to think about the material when you read it is to relate it to coupling (Time, Location, Direction, Dynamics, Modality, and Expression). In that way you will perhaps get a feeling for what kind of experiences Bluetooth can resonate with more easily.
-			
-			<br>
-			<a class="button" href="https://sunflowr.github.io/20162-k3171-journal/post/pre-week2/">
-				Continue reading
-			</a>
-		</div>
-	</div>
+	<div class="post-content">
+    <article>
+      <header>
+        <h1>
+          <a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/pre-week2/">
+            Pre-week2
+          </a>
+        </h1>
+        <p class="meta">
+          September 4, 2016 &middot; 2 minute read
+        </p>
+      </header>
+      <section class="post-content">
+        
+
+<h1 id="fridays-work-material-for-creating-an-spatial-experience">Fridays work: Material for creating an spatial experience</h1>
+
+<p>Read the sources below and continue to explore how this can help you create a spatial experience. Perhaps a productive way to think about the material when you read it is to relate it to coupling (Time, Location, Direction, Dynamics, Modality, and Expression). In that way you will perhaps get a feeling for what kind of experiences Bluetooth can resonate with more easily.</p>
+
+<h3 id="readings">Readings:</h3>
+
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Electromagnetic_radiation">Electromagnetic radiation</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Radio_wave">Radio wave</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Bluetooth">Bluetooth</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Bluetooth_low_energy">BLE</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Birch">Birch</a></li>
+<li><a href="https://en.wikipedia.org/wiki/MAC_address">MAC-address</a></li>
+<li><a href="https://en.wikipedia.org/wiki/IP_address">IP-address</a></li>
+</ul>
+
+<h3 id="notes">Notes</h3>
+
+<h4 id="electromagnetic-radiation">Electromagnetic radiation</h4>
+
+<p>Bluetooth is electromagnetic waves. Read the introduction. How does sound differ from electromagnetic waves?</p>
+
+<blockquote>
+<p>Soundwaves are not electromagnetic radiation. At the lower end of the electromagnetic spectrum, about 20 Hz to about 20 kHz, are frequencies that might be considered in the audio range. However, electromagnetic waves cannot be directly perceived by human ears. Sound waves are instead the oscillating compression of molecules. To be heard, electromagnetic radiation must be converted to pressure waves of the fluid in which the ear is located (whether the fluid is air, water or something else).</p>
+</blockquote>
+
+<h4 id="radio-wave">Radio wave</h4>
+
+<blockquote>
+<p>Radio waves are a type of electromagnetic radiation with wavelengths in the electromagnetic spectrum longer than infrared light. Radio waves have frequencies as high as 300 GHz to as low as 3 kHz, though some definitions describe waves above 1 or 3 GHz as microwaves, or include waves of any lower frequency. At 300 GHz, the corresponding wavelength is 1 mm (0.039 in), and at 3 kHz is 100 km (62 mi). Like all other electromagnetic waves, they travel at the speed of light. Naturally occurring radio waves are generated by lightning, or by astronomical objects.</p>
+
+<p>&ndash; <a href="https://en.wikipedia.org/wiki/Radio_wave">https://en.wikipedia.org/wiki/Radio_wave</a></p>
+</blockquote>
+
+<p><a href="https://en.wikipedia.org/wiki/Radio_wave#Propagation">https://en.wikipedia.org/wiki/Radio_wave#Propagation</a></p>
+
+<h4 id="bluetooth">Bluetooth</h4>
+
+<blockquote>
+<p>Bluetooth is a wireless technology standard for exchanging data over short distances (using short-wavelength UHF radio waves in the ISM band from 2.4 to 2.485 GHz[4]) from fixed and mobile devices, and building personal area networks (PANs). Invented by telecom vendor Ericsson in 1994,[5] it was originally conceived as a wireless alternative to RS-232 data cables. It can connect several devices, overcoming problems of synchronization.</p>
+
+<p>&ndash; <a href="https://en.wikipedia.org/wiki/Bluetooth">https://en.wikipedia.org/wiki/Bluetooth</a></p>
+</blockquote>
+
+<h3 id="natural-and-human-made-materials">Natural and human made materials</h3>
+
+<blockquote>
+<p>Think and Discuss: What are the differences and similarities between natural materials as Birch and human made ones as Bluetooth.</p>
+</blockquote>
+
+<p>Considering that humans are part of nature it must thus mean that anything we do can be seen as natural.</p>
+
+      </section>
+    </article>
+  </div>
 	
 </div>
 
