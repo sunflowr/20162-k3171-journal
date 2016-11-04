@@ -10,6 +10,82 @@
     <atom:link href="https://sunflowr.github.io/20162-k3171-journal/tags/introduction/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Module3 introduction</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20161003/</link>
+      <pubDate>Mon, 03 Oct 2016 22:18:10 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20161003/</guid>
+      <description>
+
+&lt;p&gt;Today module 3 was presented to us. The keyword is &amp;lsquo;Nuance&amp;rsquo; and as far as I interpreted it, it&amp;rsquo;s abut expressiveness and flow in the interaction. To simplify step based interactions into something much more fluid and natural feeling.&lt;/p&gt;
+
+&lt;p&gt;Material / requirements for the module is touch and pixels. Target device can be anything phone, tablet, billboard, printer, something that don&amp;rsquo;t exist yet.&lt;/p&gt;
+
+&lt;h3 id=&#34;lecture&#34;&gt;Lecture&lt;/h3&gt;
+
+&lt;h4 id=&#34;skillful-coping&#34;&gt;Skillful coping&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;To keep up with a situation.&lt;/li&gt;
+&lt;li&gt;Things seem to &amp;ldquo;fall into place&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;We do just the right thing at the right moment.&lt;/li&gt;
+&lt;li&gt;Seem to flow, don&amp;rsquo;t need to know about the how.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;ideas&#34;&gt;Ideas&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Start with something with limited nuance.&lt;/li&gt;
+&lt;li&gt;Look for interactions that involve repeated steps, or selection from a menu menu option.&lt;/li&gt;
+&lt;li&gt;See if you can &amp;ldquo;collapse&amp;rdquo; it down into a single expressive action.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;material-quality&#34;&gt;Material quality&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Maybe pixels can be used and feed-forward in a abstract non-symbolic way?&lt;/li&gt;
+&lt;li&gt;How could touch be used more for continuous fluid interaction rather than poking fake buttons?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;user-stories&#34;&gt;User stories&lt;/h4&gt;
+
+&lt;p&gt;Example 1&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;MAH printer system requires multiple steps in order to print, even in the case where the user want&amp;rsquo;s to print everything, or the there&amp;rsquo;s only one thing in the queue. It would be desirable if the user could in a easy manner skip this friction in the interaction and create a flow, making the experience better and give the user more expressiveness in it&amp;rsquo;s way of commanding the printer.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&#34;notes&#34;&gt;Notes&lt;/h4&gt;
+
+&lt;p&gt;Kattegat contains a good collection of touch related samples.&lt;/p&gt;
+
+&lt;h5 id=&#34;kattegat&#34;&gt;Kattegat&lt;/h5&gt;
+
+&lt;p&gt;Install:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;$ npm install -g generator-kattegat&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Create project:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;$ yo kattegat&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Start:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;$ npm start [tunnel]&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://developer.telerik.com/featured/a-concise-guide-to-remote-debugging-on-ios-android-and-windows-phone/&#34;&gt;Setting up remote debugging on phone&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Module2 introduction</title>
       <link>https://sunflowr.github.io/20162-k3171-journal/post/20160921/</link>
       <pubDate>Wed, 21 Sep 2016 16:48:07 +0200</pubDate>

@@ -10,6 +10,73 @@
     <atom:link href="https://sunflowr.github.io/20162-k3171-journal/tags/status/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Idea generation</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20161005/</link>
+      <pubDate>Wed, 05 Oct 2016 19:34:36 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20161005/</guid>
+      <description>
+
+&lt;h3 id=&#34;ideas&#34;&gt;Ideas&lt;/h3&gt;
+
+&lt;h4 id=&#34;limitations&#34;&gt;Limitations&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Platform - mobile phone&lt;/li&gt;
+&lt;li&gt;Use touch gesture&lt;/li&gt;
+&lt;li&gt;Use pixels as indicator&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;force-touch-hold-to-call-favorite&#34;&gt;Force-touch - hold to call favorite&lt;/h4&gt;
+
+&lt;p&gt;When user force touch over a certain threshold on the Phone icon the user is given the option to call a favorite contact without having to go through the contact book.&lt;/p&gt;
+
+&lt;h4 id=&#34;multi-touch-swipe-skip-x-pages&#34;&gt;Multi-touch swipe - skip X pages&lt;/h4&gt;
+
+&lt;p&gt;Depending on amount of fingers touching the screen when swiping skip X amount of pages. E.g. when flicking through the app pages, instead of swiping three times to go from page 1 to page 3, swipe with two fingers to jump forward two pages instead.&lt;/p&gt;
+
+&lt;h4 id=&#34;swipe-gesture-on-the-home-button&#34;&gt;Swipe gesture on the &amp;ldquo;Home button&amp;rdquo;&lt;/h4&gt;
+
+&lt;p&gt;Considering that the &amp;ldquo;home button&amp;rdquo; now day seem to be smarter than just a regular button (e.g. finger recognition) we wondered if it would be possible to some how detect gestures on it.&lt;/p&gt;
+
+&lt;p&gt;How could interacting using gestures on this button rather than the screen aid in everyday actions on the phone?&lt;/p&gt;
+
+&lt;h4 id=&#34;interactive-billboards&#34;&gt;Interactive billboards&lt;/h4&gt;
+
+&lt;p&gt;What would happen if public billboards were more like gigantic interactive screens?&lt;/p&gt;
+
+&lt;p&gt;How would it handle multiple users?&lt;/p&gt;
+
+&lt;p&gt;Would it make people take more notice to and engage more in the message on the billboard (e.g. even if it were a commercial for toothbrushes).&lt;/p&gt;
+
+&lt;h4 id=&#34;pinching-for-overview&#34;&gt;Pinching for overview&lt;/h4&gt;
+
+&lt;p&gt;Similar to how it&amp;rsquo;s used on OSX give the user a overview screen of all the active applications; doing this on the phone could as an example present the available pages on the home screen of the phone for faster movement.&lt;/p&gt;
+
+&lt;h4 id=&#34;misc-ideas&#34;&gt;Misc ideas&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Is there any reason for not interacting using the foot more?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;selected-idea-fast-scroll-filter-scroll&#34;&gt;Selected idea - Fast scroll / filter scroll.&lt;/h3&gt;
+
+&lt;p&gt;After a bit more discussions and consulting with the teacher we ended up with a combination of some ideas that we evolved into our current idea.
+We aim to create something that could be used in context of social media, news site and other sites that are based on articles/posts.&lt;/p&gt;
+
+&lt;p&gt;The idea is to allow the user to do fast scroll / filter scroll to quickly skip articles in the article feed based on some search criteria.&lt;/p&gt;
+
+&lt;p&gt;In order to do this we split the screen into multiple areas. One area functions like normal and allow the user to scroll normally, the other area(s) act as zones that react on swipe up/down and react by searching for next/previous post using the selected search criteria.&lt;/p&gt;
+
+&lt;p&gt;The idea is to allow the user to for example skip posts in social media to jump to next post for a certain friend, page or group without having to scroll forever.&lt;/p&gt;
+
+&lt;p&gt;We also have some extra ideas with using force-touch to scroll within post comments that we&amp;rsquo;re considering trying.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20161005/sketch.jpg&#34; alt=&#34;sketch&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>2016-09-28: Status update</title>
       <link>https://sunflowr.github.io/20162-k3171-journal/post/20160928/</link>
       <pubDate>Wed, 28 Sep 2016 16:48:07 +0200</pubDate>

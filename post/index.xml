@@ -7,8 +7,151 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Released under the MIT license&lt;br&gt;Powered by [Hugo](//gohugo.io/) with the [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
-    <lastBuildDate>Fri, 30 Sep 2016 19:08:02 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 05 Oct 2016 19:34:36 +0200</lastBuildDate>
     <atom:link href="https://sunflowr.github.io/20162-k3171-journal/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Idea generation</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20161005/</link>
+      <pubDate>Wed, 05 Oct 2016 19:34:36 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20161005/</guid>
+      <description>
+
+&lt;h3 id=&#34;ideas&#34;&gt;Ideas&lt;/h3&gt;
+
+&lt;h4 id=&#34;limitations&#34;&gt;Limitations&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Platform - mobile phone&lt;/li&gt;
+&lt;li&gt;Use touch gesture&lt;/li&gt;
+&lt;li&gt;Use pixels as indicator&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;force-touch-hold-to-call-favorite&#34;&gt;Force-touch - hold to call favorite&lt;/h4&gt;
+
+&lt;p&gt;When user force touch over a certain threshold on the Phone icon the user is given the option to call a favorite contact without having to go through the contact book.&lt;/p&gt;
+
+&lt;h4 id=&#34;multi-touch-swipe-skip-x-pages&#34;&gt;Multi-touch swipe - skip X pages&lt;/h4&gt;
+
+&lt;p&gt;Depending on amount of fingers touching the screen when swiping skip X amount of pages. E.g. when flicking through the app pages, instead of swiping three times to go from page 1 to page 3, swipe with two fingers to jump forward two pages instead.&lt;/p&gt;
+
+&lt;h4 id=&#34;swipe-gesture-on-the-home-button&#34;&gt;Swipe gesture on the &amp;ldquo;Home button&amp;rdquo;&lt;/h4&gt;
+
+&lt;p&gt;Considering that the &amp;ldquo;home button&amp;rdquo; now day seem to be smarter than just a regular button (e.g. finger recognition) we wondered if it would be possible to some how detect gestures on it.&lt;/p&gt;
+
+&lt;p&gt;How could interacting using gestures on this button rather than the screen aid in everyday actions on the phone?&lt;/p&gt;
+
+&lt;h4 id=&#34;interactive-billboards&#34;&gt;Interactive billboards&lt;/h4&gt;
+
+&lt;p&gt;What would happen if public billboards were more like gigantic interactive screens?&lt;/p&gt;
+
+&lt;p&gt;How would it handle multiple users?&lt;/p&gt;
+
+&lt;p&gt;Would it make people take more notice to and engage more in the message on the billboard (e.g. even if it were a commercial for toothbrushes).&lt;/p&gt;
+
+&lt;h4 id=&#34;pinching-for-overview&#34;&gt;Pinching for overview&lt;/h4&gt;
+
+&lt;p&gt;Similar to how it&amp;rsquo;s used on OSX give the user a overview screen of all the active applications; doing this on the phone could as an example present the available pages on the home screen of the phone for faster movement.&lt;/p&gt;
+
+&lt;h4 id=&#34;misc-ideas&#34;&gt;Misc ideas&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Is there any reason for not interacting using the foot more?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;selected-idea-fast-scroll-filter-scroll&#34;&gt;Selected idea - Fast scroll / filter scroll.&lt;/h3&gt;
+
+&lt;p&gt;After a bit more discussions and consulting with the teacher we ended up with a combination of some ideas that we evolved into our current idea.
+We aim to create something that could be used in context of social media, news site and other sites that are based on articles/posts.&lt;/p&gt;
+
+&lt;p&gt;The idea is to allow the user to do fast scroll / filter scroll to quickly skip articles in the article feed based on some search criteria.&lt;/p&gt;
+
+&lt;p&gt;In order to do this we split the screen into multiple areas. One area functions like normal and allow the user to scroll normally, the other area(s) act as zones that react on swipe up/down and react by searching for next/previous post using the selected search criteria.&lt;/p&gt;
+
+&lt;p&gt;The idea is to allow the user to for example skip posts in social media to jump to next post for a certain friend, page or group without having to scroll forever.&lt;/p&gt;
+
+&lt;p&gt;We also have some extra ideas with using force-touch to scroll within post comments that we&amp;rsquo;re considering trying.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20161005/sketch.jpg&#34; alt=&#34;sketch&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Module3 introduction</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20161003/</link>
+      <pubDate>Mon, 03 Oct 2016 22:18:10 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20161003/</guid>
+      <description>
+
+&lt;p&gt;Today module 3 was presented to us. The keyword is &amp;lsquo;Nuance&amp;rsquo; and as far as I interpreted it, it&amp;rsquo;s abut expressiveness and flow in the interaction. To simplify step based interactions into something much more fluid and natural feeling.&lt;/p&gt;
+
+&lt;p&gt;Material / requirements for the module is touch and pixels. Target device can be anything phone, tablet, billboard, printer, something that don&amp;rsquo;t exist yet.&lt;/p&gt;
+
+&lt;h3 id=&#34;lecture&#34;&gt;Lecture&lt;/h3&gt;
+
+&lt;h4 id=&#34;skillful-coping&#34;&gt;Skillful coping&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;To keep up with a situation.&lt;/li&gt;
+&lt;li&gt;Things seem to &amp;ldquo;fall into place&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;We do just the right thing at the right moment.&lt;/li&gt;
+&lt;li&gt;Seem to flow, don&amp;rsquo;t need to know about the how.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;ideas&#34;&gt;Ideas&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Start with something with limited nuance.&lt;/li&gt;
+&lt;li&gt;Look for interactions that involve repeated steps, or selection from a menu menu option.&lt;/li&gt;
+&lt;li&gt;See if you can &amp;ldquo;collapse&amp;rdquo; it down into a single expressive action.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;material-quality&#34;&gt;Material quality&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Maybe pixels can be used and feed-forward in a abstract non-symbolic way?&lt;/li&gt;
+&lt;li&gt;How could touch be used more for continuous fluid interaction rather than poking fake buttons?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;user-stories&#34;&gt;User stories&lt;/h4&gt;
+
+&lt;p&gt;Example 1&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;MAH printer system requires multiple steps in order to print, even in the case where the user want&amp;rsquo;s to print everything, or the there&amp;rsquo;s only one thing in the queue. It would be desirable if the user could in a easy manner skip this friction in the interaction and create a flow, making the experience better and give the user more expressiveness in it&amp;rsquo;s way of commanding the printer.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&#34;notes&#34;&gt;Notes&lt;/h4&gt;
+
+&lt;p&gt;Kattegat contains a good collection of touch related samples.&lt;/p&gt;
+
+&lt;h5 id=&#34;kattegat&#34;&gt;Kattegat&lt;/h5&gt;
+
+&lt;p&gt;Install:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;$ npm install -g generator-kattegat&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Create project:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;$ yo kattegat&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Start:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;$ npm start [tunnel]&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://developer.telerik.com/featured/a-concise-guide-to-remote-debugging-on-ios-android-and-windows-phone/&#34;&gt;Setting up remote debugging on phone&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Presentation of Module2</title>
@@ -470,94 +613,6 @@ One important wire was broken and needed replacement and one vibrator wire neede
 &lt;a href=&#34;http://www.indoornavigation.com/wiki-en/indoor-navigation-using-bluetooth-ble-and-beacons&#34;&gt;http://www.indoornavigation.com/wiki-en/indoor-navigation-using-bluetooth-ble-and-beacons&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160905/gsbl_0101.png&#34; alt=&#34;bt-bt smart ready-bt smart&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Pre-week2</title>
-      <link>https://sunflowr.github.io/20162-k3171-journal/post/pre-week2/</link>
-      <pubDate>Sun, 04 Sep 2016 21:24:07 +0200</pubDate>
-      
-      <guid>https://sunflowr.github.io/20162-k3171-journal/post/pre-week2/</guid>
-      <description>
-
-&lt;h1 id=&#34;fridays-work-material-for-creating-an-spatial-experience&#34;&gt;Fridays work: Material for creating an spatial experience&lt;/h1&gt;
-
-&lt;p&gt;Read the sources below and continue to explore how this can help you create a spatial experience. Perhaps a productive way to think about the material when you read it is to relate it to coupling (Time, Location, Direction, Dynamics, Modality, and Expression). In that way you will perhaps get a feeling for what kind of experiences Bluetooth can resonate with more easily.&lt;/p&gt;
-
-&lt;h3 id=&#34;readings&#34;&gt;Readings:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Electromagnetic_radiation&#34;&gt;Electromagnetic radiation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Radio_wave&#34;&gt;Radio wave&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Bluetooth&#34;&gt;Bluetooth&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Bluetooth_low_energy&#34;&gt;BLE&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Birch&#34;&gt;Birch&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/MAC_address&#34;&gt;MAC-address&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/IP_address&#34;&gt;IP-address&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
-
-&lt;h4 id=&#34;electromagnetic-radiation&#34;&gt;Electromagnetic radiation&lt;/h4&gt;
-
-&lt;p&gt;Bluetooth is electromagnetic waves. Read the introduction. How does sound differ from electromagnetic waves?&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Soundwaves are not electromagnetic radiation. At the lower end of the electromagnetic spectrum, about 20 Hz to about 20 kHz, are frequencies that might be considered in the audio range. However, electromagnetic waves cannot be directly perceived by human ears. Sound waves are instead the oscillating compression of molecules. To be heard, electromagnetic radiation must be converted to pressure waves of the fluid in which the ear is located (whether the fluid is air, water or something else).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&#34;radio-wave&#34;&gt;Radio wave&lt;/h4&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Radio waves are a type of electromagnetic radiation with wavelengths in the electromagnetic spectrum longer than infrared light. Radio waves have frequencies as high as 300 GHz to as low as 3 kHz, though some definitions describe waves above 1 or 3 GHz as microwaves, or include waves of any lower frequency. At 300 GHz, the corresponding wavelength is 1 mm (0.039 in), and at 3 kHz is 100 km (62 mi). Like all other electromagnetic waves, they travel at the speed of light. Naturally occurring radio waves are generated by lightning, or by astronomical objects.&lt;/p&gt;
-
-&lt;p&gt;&amp;ndash; &lt;a href=&#34;https://en.wikipedia.org/wiki/Radio_wave&#34;&gt;https://en.wikipedia.org/wiki/Radio_wave&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Radio_wave#Propagation&#34;&gt;https://en.wikipedia.org/wiki/Radio_wave#Propagation&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;bluetooth&#34;&gt;Bluetooth&lt;/h4&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Bluetooth is a wireless technology standard for exchanging data over short distances (using short-wavelength UHF radio waves in the ISM band from 2.4 to 2.485 GHz[4]) from fixed and mobile devices, and building personal area networks (PANs). Invented by telecom vendor Ericsson in 1994,[5] it was originally conceived as a wireless alternative to RS-232 data cables. It can connect several devices, overcoming problems of synchronization.&lt;/p&gt;
-
-&lt;p&gt;&amp;ndash; &lt;a href=&#34;https://en.wikipedia.org/wiki/Bluetooth&#34;&gt;https://en.wikipedia.org/wiki/Bluetooth&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&#34;natural-and-human-made-materials&#34;&gt;Natural and human made materials&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Think and Discuss: What are the differences and similarities between natural materials as Birch and human made ones as Bluetooth.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Considering that humans are part of nature it must thus mean that anything we do can be seen as natural.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>2016-09-01: Module 1 introduction</title>
-      <link>https://sunflowr.github.io/20162-k3171-journal/post/20160901/</link>
-      <pubDate>Thu, 01 Sep 2016 16:25:23 +0200</pubDate>
-      
-      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20160901/</guid>
-      <description>
-
-&lt;h1 id=&#34;interactivity-module-1-intro-ni-b0308&#34;&gt;Interactivity &amp;amp; Module 1 Intro NI:B0308&lt;/h1&gt;
-
-&lt;h2 id=&#34;reading-1-wensveen-et-al-interaction-frogger-a-design-framework-to-couple-action-and-function-through-feedback&#34;&gt;Reading 1: Wensveen et al &amp;ldquo;Interaction Frogger: a Design framework to couple action and function through feedback&amp;rdquo;&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;What are the challenges of natural coupling when it comes to interaction design?&lt;/li&gt;
-&lt;li&gt;Pick a non-digital tool and attempt to identify its six aspects of coupling.&lt;/li&gt;
-&lt;li&gt;Try the same with an app or physical product with digital interactivity&lt;/li&gt;
-&lt;li&gt;How do you think this work is useful for the designer?&lt;/li&gt;
-&lt;li&gt;What is the contribution of the paper? What new knowledge is it adding?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;note&#34;&gt;Note:&lt;/h2&gt;
-
-&lt;p&gt;Unfortunatelly I was sick this day so had to prepare from home.&lt;/p&gt;
 </description>
     </item>
     
