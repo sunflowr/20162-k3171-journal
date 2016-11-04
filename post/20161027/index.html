@@ -19,13 +19,10 @@
   
   <link rel="stylesheet" href="https://sunflowr.github.io/20162-k3171-journal/css/custom.css">
 
-	<title>Progress &middot; 20162-K3171 - Interaction Design: Interactivity: Journal</title>
+	<title>Module4 presentation &middot; 20162-K3171 - Interaction Design: Interactivity: Journal</title>
 
 	<link rel="shortcut icon" href="https://sunflowr.github.io/20162-k3171-journal/favicon.ico" type="image/x-icon">
 
-	
-	  	<link href="https://sunflowr.github.io/20162-k3171-journal/tags/progress/index.xml" rel="alternate" type="application/rss+xml" title="20162-K3171 - Interaction Design: Interactivity: Journal" />
-	  	<link href="https://sunflowr.github.io/20162-k3171-journal/tags/progress/index.xml" rel="feed" type="application/rss+xml" title="20162-K3171 - Interaction Design: Interactivity: Journal" />
 	
 </head>
 
@@ -133,56 +130,71 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8">
-        
+        <article class="single post-content">
           
-          <article class="li post-content">
-  <header>
-    <h1>
-      <a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20160914/">
-        2016-09-14: Status update
-      </a>
-    </h1>
-    <p class="meta">
-    September 14, 2016 &middot; 1 minute read &middot; 
-    
-    <a href="https://sunflowr.github.io/20162-k3171-journal/categories/module1">module1</a>
-    
-    <ul class="list-inline text-uppercase tags">
-      <li>Tags</li>
-      
-      <li class="tag"><a href="https://sunflowr.github.io/20162-k3171-journal/tags/progress">progress</a> </li>
-      
-    </ul>
-    </p>
-  </header>
-  <section class="body">
-    
+            <article class="single">
+              <header>
+                <h1 class="article-title">Module4 presentation</h1>
+          
 
-<h2 id="what-happened-yesterday">What happened yesterday:</h2>
+              <p class="meta">
+              October 27, 2016 &middot; 2 minute read &middot; 
+              
+              <a href="https://sunflowr.github.io/20162-k3171-journal/categories/module4">module4</a>
+              
+              <ul class="list-inline text-uppercase tags">
+                <li>Tags</li>
+                
+                <li class="tag"><a href="https://sunflowr.github.io/20162-k3171-journal/tags/presentation">presentation</a> </li>
+                
+              </ul>
+              </p>
+              </header>
+              <section class="post-content">
+                
 
-<p>Up until now we have tried to use the canvas objec together with javascript in order to draw the devices. During the day an idea to use CSS instead was formed and was later concived. The result so far looks promising and so far seem to help make the code a bit cleaner and easier to maintain.</p>
+<p>We had decided on meeting up a few minutes earlier to test things out and calibrate sensors and setup Ableton and Max for Live. I was a bit late because I had problem finding the DVI/HDMI adapter for the computer, but we still managed to do the things we planned.</p>
 
-<p><img src="https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160914/before.png" alt="before" /></p>
+<p>I think the presentation went fine for most part. I agreed with the feedback that it would have been much better if we had said the text instead of showing it in the video (see Video).</p>
 
-<p>The code used to fake found bt devices have also been updated, modularized and moved to it&rsquo;s own javascript file (btdevice.js). This made the main code much cleaner and easier to get an overview of.</p>
+<p>It also seemed like we failed to convey that we tried lots of different combinations of how we used the sensors before ending up were we currently are.</p>
 
-<p>We tried changing the background image to one with a checker pattern to see how the perception changed. The feeling for the new background is positive and seem to give the viewer a better feeling of perspective.</p>
+<p>We should have been more clear about important finding such as the breaking point were realized best practice (for us in this special case) for using the accelerometer.</p>
 
-<p>With the newly changed code to use CSS for graphics it was also changed so the background also used CSS and a small test to animate the background was added.</p>
+<p>As we didn&rsquo;t get any real critic of the openness, tightness or ambiguity we assume that we applied it in a good way in the interaction.</p>
 
-<p><img src="https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160914/after.png" alt="after" /></p>
+<h2 id="learnings">Learnings</h2>
 
-<h2 id="today">Today:</h2>
+<ul>
+<li><p>Through the sketching process we realized that the best way to use the accelerometer is to stop thinking of it as absolute values and instead use the shifting values over time to to either increase or decrease something.</p></li>
 
-<p>We added a new background with a centered grid instead to experiment how that would change the perception of depth.</p>
+<li><p>Another important realisation is that &ldquo;less is more&rdquo; still holds true. After presenting the current sketch to the teachers a few days before the presentation - thinking that we had something that felt good - we quickly realized that the use of so many different sensors and sounds in combination created something very complex and hard to control. The only reason we thought it was &ldquo;ok&rdquo; was because we were so use to it and knew how it worked. After that we tried simplifying the design but removing sounds and simplifying the usage of the accelerometer.</p></li>
 
-  </section>
-</article>
+<li><p>It&rsquo;s important to setup and explain the limitations (rules) to the person interacting with the artifact - if there&rsquo;s something that could break it. As an example if the person using the chair didn&rsquo;t sit on it with the Y-axis of the accelerometer facing forward when sitting down, the readings would be all wrong.</p></li>
+</ul>
+
+<h2 id="demonstrative-video">Demonstrative video</h2>
+
+<p>Shows a few examples of the sketch-process as well as the current state of the design.</p>
 
 
-        
-        
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/xljvnld_xqk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
+ </div>
 
+
+<p><a href="https://youtu.be/xljvnld_xqk">https://youtu.be/xljvnld_xqk</a></p>
+
+<h2 id="links">Links</h2>
+
+<ul>
+<li><a href="https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20161026/Interactivity1Project.zip">Ableton Project</a></li>
+<li><a href="https://youtu.be/xljvnld_xqk">Video</a></li>
+</ul>
+
+              </section>
+            </article>
+        </article>
       </div>
       <div class="col-md-3 blog-sidebar">
         

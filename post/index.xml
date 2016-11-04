@@ -7,8 +7,57 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Released under the MIT license&lt;br&gt;Powered by [Hugo](//gohugo.io/) with the [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
-    <lastBuildDate>Thu, 20 Oct 2016 20:33:10 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 27 Oct 2016 19:48:52 +0100</lastBuildDate>
     <atom:link href="https://sunflowr.github.io/20162-k3171-journal/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Module4 presentation</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20161027/</link>
+      <pubDate>Thu, 27 Oct 2016 19:48:52 +0100</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20161027/</guid>
+      <description>
+
+&lt;p&gt;We had decided on meeting up a few minutes earlier to test things out and calibrate sensors and setup Ableton and Max for Live. I was a bit late because I had problem finding the DVI/HDMI adapter for the computer, but we still managed to do the things we planned.&lt;/p&gt;
+
+&lt;p&gt;I think the presentation went fine for most part. I agreed with the feedback that it would have been much better if we had said the text instead of showing it in the video (see Video).&lt;/p&gt;
+
+&lt;p&gt;It also seemed like we failed to convey that we tried lots of different combinations of how we used the sensors before ending up were we currently are.&lt;/p&gt;
+
+&lt;p&gt;We should have been more clear about important finding such as the breaking point were realized best practice (for us in this special case) for using the accelerometer.&lt;/p&gt;
+
+&lt;p&gt;As we didn&amp;rsquo;t get any real critic of the openness, tightness or ambiguity we assume that we applied it in a good way in the interaction.&lt;/p&gt;
+
+&lt;h2 id=&#34;learnings&#34;&gt;Learnings&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Through the sketching process we realized that the best way to use the accelerometer is to stop thinking of it as absolute values and instead use the shifting values over time to to either increase or decrease something.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Another important realisation is that &amp;ldquo;less is more&amp;rdquo; still holds true. After presenting the current sketch to the teachers a few days before the presentation - thinking that we had something that felt good - we quickly realized that the use of so many different sensors and sounds in combination created something very complex and hard to control. The only reason we thought it was &amp;ldquo;ok&amp;rdquo; was because we were so use to it and knew how it worked. After that we tried simplifying the design but removing sounds and simplifying the usage of the accelerometer.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;It&amp;rsquo;s important to setup and explain the limitations (rules) to the person interacting with the artifact - if there&amp;rsquo;s something that could break it. As an example if the person using the chair didn&amp;rsquo;t sit on it with the Y-axis of the accelerometer facing forward when sitting down, the readings would be all wrong.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;demonstrative-video&#34;&gt;Demonstrative video&lt;/h2&gt;
+
+&lt;p&gt;Shows a few examples of the sketch-process as well as the current state of the design.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/xljvnld_xqk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;p&gt;&lt;a href=&#34;https://youtu.be/xljvnld_xqk&#34;&gt;https://youtu.be/xljvnld_xqk&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20161026/Interactivity1Project.zip&#34;&gt;Ableton Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/xljvnld_xqk&#34;&gt;Video&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Sensing the chair</title>
@@ -592,34 +641,6 @@ One important wire was broken and needed replacement and one vibrator wire neede
 &lt;h3 id=&#34;current-status&#34;&gt;Current status&lt;/h3&gt;
 
 &lt;p&gt;Still a bit slow on mobile unfortunatelly, but good enough for demonstation I guess. We changed from infite animation to active on click/tap. When user interact we either go from 2D to 3D or 3D to 2D depending on current state.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>2016-09-14: Status update</title>
-      <link>https://sunflowr.github.io/20162-k3171-journal/post/20160914/</link>
-      <pubDate>Wed, 14 Sep 2016 01:31:15 +0200</pubDate>
-      
-      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20160914/</guid>
-      <description>
-
-&lt;h2 id=&#34;what-happened-yesterday&#34;&gt;What happened yesterday:&lt;/h2&gt;
-
-&lt;p&gt;Up until now we have tried to use the canvas objec together with javascript in order to draw the devices. During the day an idea to use CSS instead was formed and was later concived. The result so far looks promising and so far seem to help make the code a bit cleaner and easier to maintain.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160914/before.png&#34; alt=&#34;before&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The code used to fake found bt devices have also been updated, modularized and moved to it&amp;rsquo;s own javascript file (btdevice.js). This made the main code much cleaner and easier to get an overview of.&lt;/p&gt;
-
-&lt;p&gt;We tried changing the background image to one with a checker pattern to see how the perception changed. The feeling for the new background is positive and seem to give the viewer a better feeling of perspective.&lt;/p&gt;
-
-&lt;p&gt;With the newly changed code to use CSS for graphics it was also changed so the background also used CSS and a small test to animate the background was added.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160914/after.png&#34; alt=&#34;after&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;today&#34;&gt;Today:&lt;/h2&gt;
-
-&lt;p&gt;We added a new background with a centered grid instead to experiment how that would change the perception of depth.&lt;/p&gt;
 </description>
     </item>
     
