@@ -219,6 +219,76 @@
           <article class="li post-content">
   <header>
     <h1>
+      <a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20161021/">
+        Sketching
+      </a>
+    </h1>
+    <p class="meta">
+    October 21, 2016 &middot; 4 minute read &middot; 
+    
+    <a href="https://sunflowr.github.io/20162-k3171-journal/categories/module4">module4</a>
+    
+    <ul class="list-inline text-uppercase tags">
+      <li>Tags</li>
+      
+      <li class="tag"><a href="https://sunflowr.github.io/20162-k3171-journal/tags/status">status</a> </li>
+      
+    </ul>
+    </p>
+  </header>
+  <section class="body">
+    
+
+<p>Through most of the day we experimented with applying different effects (volume, panning, filter, delay, reverb, &hellip;) to the sounds and changing different parameters using the X and Y accelerometer sensors and the potentiometer. We discovered that it was hard to noticed if the user was changing the sounds or if the sounds where changing them self. The sounds included very dynamic elements and were already very highly processed with reverb, delays and filters that it was hard to apply anything like this and change the sound subtly.</p>
+
+<p>It would have been much better if we were allowed to use raw unprocessed waveforms or the sound devices included in Ableton. It would have allowed for more changes. Take a square-wave, we could have mapped sensors to pulse-width and pitch and create lots of changes in the sound without even using filters</p>
+
+<h3 id="sketching-z-axis">Sketching Z-axis</h3>
+
+<p>I had previously wondered about the third axis - the Z axis - as there were pin-header for connecting it to the Arduino. Today we discovered that actually there were solder holes for soldering in wires to 5V, GND, X,Y and Z. Apparently we had to solder a wire to access the Z-reading.</p>
+
+<p>It was kind of funny because the Z-axis actually behaved more like we expected a accelerometer to behave. Always striving for a value and when affected with movement jump in the values but as soon as it was still go back towards this middle-value.</p>
+
+<p>After fixing this we started trying out the Z-axis applying a frequency-shifting effect when force were applied to Z. This turned out to work so satisfyingly well that we held on to that functionality for the rest of the day. The feedback felt so &ldquo;natural&rdquo; and expected in the way the sound went up and down in pitch with the up and down movement of the chair.</p>
+
+<p>We felt a certain tightness to the interaction and how it behaved, it always seemed to behave the same way and it was easy to understand. But thanks to gravity and precision in motor skills it&rsquo;s hard to feel you have a exact control of it. One of the teaches suggested it made it more ambiguous than tight. As I see tightness as being the about the experienced tightness between the interaction and the feedback from the system and the user understanding the correlation. The more clear this is to the user, the tighter the interaction feels.</p>
+
+<blockquote>
+<p>&ldquo;The prevailing buttons in Snoezlen mostly react <em>instantaneously</em>; that is, cause and effect happen (almost) at the same time, but the buttons separate cause and effect with regards to location and amount of feedback. [&hellip;]</p>
+
+<p>Attributes of tightness play out differently across the designs. Both <em>MalleablePillow</em> and <em>ActiveCurtain</em> give feedback instantaneously where they are touched, and they react proportionally.&rdquo;</p>
+</blockquote>
+
+<p>(Larsen, 2015)</p>
+
+<p>Ambiguousness is about a lack of understanding of how something work, causing the user to guess and in best of cases explore to get a better (deeper) understanding of the feedback from the interaction/artifact/system.</p>
+
+<blockquote>
+<p>&ldquo;By impelling people to interpret situations for themselves, it encourages them to start grappling conceptually with systems and their contexts, and thus to establish deeper and more personal relations with meanings offered by the system&rdquo;</p>
+</blockquote>
+
+<p>(Gaver, Beaver, &amp; Benford, 2003)</p>
+
+<p>I&rsquo;d argue that the two don&rsquo;t necessarily have to be in odd to each other in this case. The user can experience a direct result of sitting on the chair - tightness:</p>
+
+<p>Playing of a sound and hearing it change in pitch with the movement.</p>
+
+<p>But there&rsquo;s still the question if the user instantly realize that moving up and down changes the pitch of the sound or if this is something that will be realized through exploration - ambiguity.</p>
+
+<h2 id="references">References</h2>
+
+<p>Larsen, H. S. (2015). <em>Tangible participation engaging designs &amp; designerly engagements in pedagogical praxes</em>. Retrieved from <a href="http://lup.lub.lu.se/record/5265731">http://lup.lub.lu.se/record/5265731</a></p>
+
+<p>Gaver, W. W., Beaver, J., &amp; Benford, S. (2003). <em>Ambiguity as a resource for design</em>. . doi:10.<sup>1145</sup>&frasl;<sub>642611</sub>.642653</p>
+
+  </section>
+</article>
+
+
+        
+          <article class="li post-content">
+  <header>
+    <h1>
       <a class="post-link" href="https://sunflowr.github.io/20162-k3171-journal/post/20161020/">
         Sensing the chair
       </a>
@@ -1601,13 +1671,13 @@ One important wire was broken and needed replacement and one vibrator wire neede
       
       <li><a href="https://sunflowr.github.io/20162-k3171-journal/post/20161027/">Module4 presentation</a></li>
       
+      <li><a href="https://sunflowr.github.io/20162-k3171-journal/post/20161021/">Sketching</a></li>
+      
       <li><a href="https://sunflowr.github.io/20162-k3171-journal/post/20161020/">Sensing the chair</a></li>
       
       <li><a href="https://sunflowr.github.io/20162-k3171-journal/post/20161019/">Thursday</a></li>
       
       <li><a href="https://sunflowr.github.io/20162-k3171-journal/post/20161018/">Module4 introduction</a></li>
-      
-      <li><a href="https://sunflowr.github.io/20162-k3171-journal/post/20161005/">Idea generation</a></li>
       
     </ol>
   </div>

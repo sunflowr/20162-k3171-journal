@@ -60,6 +60,58 @@
     </item>
     
     <item>
+      <title>Sketching</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20161021/</link>
+      <pubDate>Fri, 21 Oct 2016 21:01:18 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20161021/</guid>
+      <description>
+
+&lt;p&gt;Through most of the day we experimented with applying different effects (volume, panning, filter, delay, reverb, &amp;hellip;) to the sounds and changing different parameters using the X and Y accelerometer sensors and the potentiometer. We discovered that it was hard to noticed if the user was changing the sounds or if the sounds where changing them self. The sounds included very dynamic elements and were already very highly processed with reverb, delays and filters that it was hard to apply anything like this and change the sound subtly.&lt;/p&gt;
+
+&lt;p&gt;It would have been much better if we were allowed to use raw unprocessed waveforms or the sound devices included in Ableton. It would have allowed for more changes. Take a square-wave, we could have mapped sensors to pulse-width and pitch and create lots of changes in the sound without even using filters&lt;/p&gt;
+
+&lt;h3 id=&#34;sketching-z-axis&#34;&gt;Sketching Z-axis&lt;/h3&gt;
+
+&lt;p&gt;I had previously wondered about the third axis - the Z axis - as there were pin-header for connecting it to the Arduino. Today we discovered that actually there were solder holes for soldering in wires to 5V, GND, X,Y and Z. Apparently we had to solder a wire to access the Z-reading.&lt;/p&gt;
+
+&lt;p&gt;It was kind of funny because the Z-axis actually behaved more like we expected a accelerometer to behave. Always striving for a value and when affected with movement jump in the values but as soon as it was still go back towards this middle-value.&lt;/p&gt;
+
+&lt;p&gt;After fixing this we started trying out the Z-axis applying a frequency-shifting effect when force were applied to Z. This turned out to work so satisfyingly well that we held on to that functionality for the rest of the day. The feedback felt so &amp;ldquo;natural&amp;rdquo; and expected in the way the sound went up and down in pitch with the up and down movement of the chair.&lt;/p&gt;
+
+&lt;p&gt;We felt a certain tightness to the interaction and how it behaved, it always seemed to behave the same way and it was easy to understand. But thanks to gravity and precision in motor skills it&amp;rsquo;s hard to feel you have a exact control of it. One of the teaches suggested it made it more ambiguous than tight. As I see tightness as being the about the experienced tightness between the interaction and the feedback from the system and the user understanding the correlation. The more clear this is to the user, the tighter the interaction feels.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;The prevailing buttons in Snoezlen mostly react &lt;em&gt;instantaneously&lt;/em&gt;; that is, cause and effect happen (almost) at the same time, but the buttons separate cause and effect with regards to location and amount of feedback. [&amp;hellip;]&lt;/p&gt;
+
+&lt;p&gt;Attributes of tightness play out differently across the designs. Both &lt;em&gt;MalleablePillow&lt;/em&gt; and &lt;em&gt;ActiveCurtain&lt;/em&gt; give feedback instantaneously where they are touched, and they react proportionally.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(Larsen, 2015)&lt;/p&gt;
+
+&lt;p&gt;Ambiguousness is about a lack of understanding of how something work, causing the user to guess and in best of cases explore to get a better (deeper) understanding of the feedback from the interaction/artifact/system.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;By impelling people to interpret situations for themselves, it encourages them to start grappling conceptually with systems and their contexts, and thus to establish deeper and more personal relations with meanings offered by the system&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(Gaver, Beaver, &amp;amp; Benford, 2003)&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;d argue that the two don&amp;rsquo;t necessarily have to be in odd to each other in this case. The user can experience a direct result of sitting on the chair - tightness:&lt;/p&gt;
+
+&lt;p&gt;Playing of a sound and hearing it change in pitch with the movement.&lt;/p&gt;
+
+&lt;p&gt;But there&amp;rsquo;s still the question if the user instantly realize that moving up and down changes the pitch of the sound or if this is something that will be realized through exploration - ambiguity.&lt;/p&gt;
+
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+
+&lt;p&gt;Larsen, H. S. (2015). &lt;em&gt;Tangible participation engaging designs &amp;amp; designerly engagements in pedagogical praxes&lt;/em&gt;. Retrieved from &lt;a href=&#34;http://lup.lub.lu.se/record/5265731&#34;&gt;http://lup.lub.lu.se/record/5265731&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Gaver, W. W., Beaver, J., &amp;amp; Benford, S. (2003). &lt;em&gt;Ambiguity as a resource for design&lt;/em&gt;. . doi:10.&lt;sup&gt;1145&lt;/sup&gt;&amp;frasl;&lt;sub&gt;642611&lt;/sub&gt;.642653&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Sensing the chair</title>
       <link>https://sunflowr.github.io/20162-k3171-journal/post/20161020/</link>
       <pubDate>Thu, 20 Oct 2016 20:33:10 +0200</pubDate>
@@ -606,41 +658,6 @@ One important wire was broken and needed replacement and one vibrator wire neede
 &lt;li&gt;&lt;a href=&#34;https://github.com/sunflowr/20162-k3171-module1&#34;&gt;github&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://k3171-test.firebaseapp.com/&#34;&gt;app&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>2016-09-15: Update</title>
-      <link>https://sunflowr.github.io/20162-k3171-journal/post/20160915/</link>
-      <pubDate>Thu, 15 Sep 2016 00:31:56 +0200</pubDate>
-      
-      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20160915/</guid>
-      <description>
-
-&lt;h2 id=&#34;what-was-done-yesterday&#34;&gt;What was done yesterday.&lt;/h2&gt;
-
-&lt;p&gt;We added a new background again to see if this could take us in the direction we wanted to go with the experience. To some extent it felt closer to the initial idea.&lt;/p&gt;
-
-&lt;p&gt;After the rewriting of rendering to use DOM/CSS instead of JS canvas there were further enhancements made today so the object resize as the background is &amp;ldquo;zoomed&amp;rdquo;, thus creating a feeling of depth.&lt;/p&gt;
-
-&lt;h3 id=&#34;issues&#34;&gt;Issues&lt;/h3&gt;
-
-&lt;p&gt;After trying with real data from the teachers firebase account it became clear that there might be some performance issues when rendering on a phone.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve done some small optimization but nothing that gives that needed boost.. the best option so far is to put a cap on amount of found devices to render.&lt;/p&gt;
-
-&lt;h2 id=&#34;what-was-done-today&#34;&gt;What was done today&lt;/h2&gt;
-
-&lt;h3 id=&#34;result-so-far&#34;&gt;Result so far:&lt;/h3&gt;
-
-&lt;p&gt;2D vs 3D space:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160915/2d.png&#34; alt=&#34;2D space&#34; /&gt;
-&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160915/3d.png&#34; alt=&#34;3D space&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;current-status&#34;&gt;Current status&lt;/h3&gt;
-
-&lt;p&gt;Still a bit slow on mobile unfortunatelly, but good enough for demonstation I guess. We changed from infite animation to active on click/tap. When user interact we either go from 2D to 3D or 3D to 2D depending on current state.&lt;/p&gt;
 </description>
     </item>
     
