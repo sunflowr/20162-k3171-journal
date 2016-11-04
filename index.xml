@@ -7,8 +7,165 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Released under the MIT license&lt;br&gt;Powered by [Hugo](//gohugo.io/) with the [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
-    <lastBuildDate>Wed, 05 Oct 2016 19:34:36 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 20 Oct 2016 20:33:10 +0200</lastBuildDate>
     <atom:link href="https://sunflowr.github.io/20162-k3171-journal/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Sensing the chair</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20161020/</link>
+      <pubDate>Thu, 20 Oct 2016 20:33:10 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20161020/</guid>
+      <description>
+
+&lt;p&gt;Today we fixed with the chair. The idea was to use a typical office chair unfortunately it turns out it was hard to attach the potentiometer to them. After looking around for different solutions to this and talking to the people in the workshop area we found some chairs that we were able to pull apart easier to attach the potentiometer.&lt;/p&gt;
+
+&lt;p&gt;In order to fix the potentiometer to the chair we pulled it apart and took a wooden block and attached it to the chair and drilled a hole for the potentiometer to sit in (see attached photos).&lt;/p&gt;
+
+&lt;p&gt;We had a few ideas on how to the actual connection between the turning part of the chair and the potentiometer. But most of them required much work to get it working. In the end we realized we could just do it similar to how old belt-driven record players work. So we put a elastic around the rotating part and the potentiometer and rely on friction to turn the knob. It seemed to work really well so we went with this idea.&lt;/p&gt;
+
+&lt;p&gt;We quickly realized it was better to attach the accelerometer to the chair instead of the user. It fixed issues regarding how the user would have been limited in the movement by the wires attached to the accelerometer. In this way it also put the focus all on the chair and allowed for more flowing openness for the users. The user now just had to sit down without first having to attach some device before using the artifact.&lt;/p&gt;
+
+&lt;p&gt;After this we finally felt ready to start sketching.&lt;/p&gt;
+
+&lt;h3 id=&#34;sketching&#34;&gt;Sketching&lt;/h3&gt;
+
+&lt;p&gt;Most of todays sketches was about getting to know the sensors and what we can expect from them and how to use them.&lt;/p&gt;
+
+&lt;p&gt;We played around with X and Y axis mostly as we found them very confusing. We expected them to be continuously changing with the movement (or lack of movement). But instead it seemed to give us something that looked more like absolute values that you would expect from a gyroscope. We did lots of tests and felt that this behaviour seemed to happen each time so we decided on using it in this more &amp;ldquo;gyroscopic&amp;rdquo; way, using the values to measure how far the user were leaning in a direction.&lt;/p&gt;
+
+&lt;h3 id=&#34;photos&#34;&gt;Photos&lt;/h3&gt;
+
+&lt;p&gt;Chair full view&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20161020/chair_full.jpg&#34; alt=&#34;Chair full view&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Chair detailed view of potentiometer&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20161020/chair_detail.jpg&#34; alt=&#34;Chair detailed view&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Chair full view of all sensors&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20161020/chair_sensor.jpg&#34; alt=&#34;Chair sensors&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Chair detailed view of all the sensors&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20161020/chair_sensor_detail.jpg&#34; alt=&#34;Chair sensors detailed&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Thursday</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20161019/</link>
+      <pubDate>Wed, 19 Oct 2016 20:44:07 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20161019/</guid>
+      <description>&lt;p&gt;This day I unfortunately had to work from home so only had contact with the other group member through chat. We decided on trying out things on our own and see what we could find.&lt;/p&gt;
+
+&lt;p&gt;As I went and bought the accelerometer the day before I thought I try it out today and see how it behaves. I connected it up to the Arduino and tried it out in Max for Live, connecting it to a few parameters and tried moving it around. It seemed to work fine and it looked like we could work with the values.&lt;/p&gt;
+
+&lt;p&gt;Thought it felt clear that it was important to try it with the correct chair as soon as possible as the way I move it with my hand is much different from the movement you make when re-positioning and leaning on a chair.&lt;/p&gt;
+
+&lt;p&gt;Accelerometer sensor used:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20161019/accelerometer.jpg&#34; alt=&#34;Accelerometer sensor&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Module4 introduction</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20161018/</link>
+      <pubDate>Tue, 18 Oct 2016 22:21:09 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20161018/</guid>
+      <description>
+
+&lt;p&gt;Today we were presented with &lt;em&gt;Module 4&lt;/em&gt; - the last module for the course. The topic for the module is &lt;em&gt;Body and Sound&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Keywords for the modules are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Tightness - The user can see a direct corelation between its interaction and the feedback from the artifact.&lt;/li&gt;
+&lt;li&gt;Ambiguity - Some form of uncertainty in the inner workings, making the artifact feel more alive.&lt;/li&gt;
+&lt;li&gt;Openness - There&amp;rsquo;s no fixed state of the interaction, no start/stop condition. It&amp;rsquo;s always sensing the environment and reacting to it. Much like how we humans and most - if not all - living beings.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Material for the module consist of:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ableton Live with Max for Live&lt;/li&gt;
+&lt;li&gt;Arduino using Firmata sketch&lt;/li&gt;
+&lt;li&gt;Max two analog sensors&lt;/li&gt;
+&lt;li&gt;A few pre-selected audio files.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;idea-generation&#34;&gt;Idea-generation&lt;/h2&gt;
+
+&lt;p&gt;Instructions:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Ideate -&amp;gt; Pick two (sets of) everyday movements.&lt;/li&gt;
+&lt;li&gt;Explore the characteristics of these two (sets of) movements with your body.&lt;/li&gt;
+&lt;li&gt;Choose one set of movements - work with it, identifying 3-5 of the movements characteristics.&lt;/li&gt;
+&lt;li&gt;Make brief description of each of these characteristics.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;movements&#34;&gt;Movements&lt;/h3&gt;
+
+&lt;p&gt;Movements in bold was the once we expanded on.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Shaking hands&lt;/li&gt;
+&lt;li&gt;Opening doors&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Drinking coffee&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Smoking&lt;/li&gt;
+&lt;li&gt;Read/write&lt;/li&gt;
+&lt;li&gt;Flipping pages&lt;/li&gt;
+&lt;li&gt;Put on / taking off shoes&lt;/li&gt;
+&lt;li&gt;Pick up thing from the floor&lt;/li&gt;
+&lt;li&gt;Hugging (man-hug - the awkwardness)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sitting in a office-chair&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Arm-wrestling&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;drinking-coffee&#34;&gt;Drinking coffee&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Holding (the cup)&lt;/li&gt;
+&lt;li&gt;Grabbing&lt;/li&gt;
+&lt;li&gt;Lifting&lt;/li&gt;
+&lt;li&gt;Tilting&lt;/li&gt;
+&lt;li&gt;Rotating&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We thought these were some interesting interactions that we could apply sensors to feel, but after talking to a few other groups it felt like everyone was going to do something similar. So we decided on our other options - sitting in a office chair.&lt;/p&gt;
+
+&lt;h4 id=&#34;sitting-in-a-office-chair&#34;&gt;Sitting in a office-chair&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Spinning (the chair)&lt;/li&gt;
+&lt;li&gt;Leaning left/right/back/forward&lt;/li&gt;
+&lt;li&gt;Sitting down&lt;/li&gt;
+&lt;li&gt;Standing up&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We thought this could be an fun thing were we can play around with how people sit in the chair, like how we all re-position our self from time to time without really thinking about it. We&amp;rsquo;re thinking that we could make the person aware with the way the they use the chair. By sensing how the person lean the chair or position it we could either create a feelings such as power or discomfort by playing with the sounds.&lt;/p&gt;
+
+&lt;h2 id=&#34;tech&#34;&gt;Tech&lt;/h2&gt;
+
+&lt;p&gt;We decided we want to put a sensors for sensing the rotation of the chair as the person using it re-position them self and the chair. We think the most viable solution for this is to stick a potentiometer on the chair and connect it between the two rotating parts of the chair. To stop the potentiometer from breaking if the user would do a 360 turn we&amp;rsquo;ve removed the mechanical part in the potentiometer that stops it from rotating a full turn.&lt;/p&gt;
+
+&lt;p&gt;We also decided on using a accelerometer from TinkerKit as the one provided by the teacher communicate using I2C. The accelerometer provide sensors for the X, Y and Z axis. The idea is to be able to sense the bodily movement of the person using the chair.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20161018/chair_sensors.jpg&#34; alt=&#34;Chair sensors&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.electrokit.com/tinkerkit-accelerometer-2-3-riktningar.51862&#34;&gt;TinkerKit Accelerometer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Idea generation</title>
@@ -463,156 +620,6 @@ One important wire was broken and needed replacement and one vibrator wire neede
 &lt;h2 id=&#34;today&#34;&gt;Today:&lt;/h2&gt;
 
 &lt;p&gt;We added a new background with a centered grid instead to experiment how that would change the perception of depth.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>2016-09-08</title>
-      <link>https://sunflowr.github.io/20162-k3171-journal/post/20160908/</link>
-      <pubDate>Thu, 08 Sep 2016 21:22:16 +0200</pubDate>
-      
-      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20160908/</guid>
-      <description>
-
-&lt;p&gt;Today I worked some on the coding, try to get a simple version of the idea up and running using HTML5 Canvas and Javascript. Currently there&amp;rsquo;s some issues with scaling making things look aliased.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s currently using manually added fake data from firebase as input.&lt;/p&gt;
-
-&lt;p&gt;The idea thus far seem to be that a listening device is represented as a &amp;lsquo;circle&amp;rsquo;. The size of this &amp;lsquo;circle&amp;rsquo; is determined by the amount of found devices. We probablt will need to add some form of scale factor determined from averaging the total found devices between all listeners.&lt;/p&gt;
-
-&lt;p&gt;Position and possible animation is not decided on yet.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160907/space.jpg&#34; alt=&#34;space&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;links&#34;&gt;Links&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/sunflowr/20162-k3171-module1&#34;&gt;github&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://k3171-test.firebaseapp.com/&#34;&gt;app&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>2016-09-07 - Project Presentation: Module 1</title>
-      <link>https://sunflowr.github.io/20162-k3171-journal/post/20160907/</link>
-      <pubDate>Thu, 08 Sep 2016 00:20:20 +0200</pubDate>
-      
-      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20160907/</guid>
-      <description>
-
-&lt;h3 id=&#34;project-description&#34;&gt;Project Description&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://fredrikpahlsson.wordpress.com/2016/09/07/relative-space-using-2d/&#34;&gt;from Fredrik&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;In the 2D-illustration the space is created between the objects ”balls”. However the idea of the balls are dependent on the viewers perspective and relation to its surrounding. If you don’t have any relation to a object you will compare it to similar objects.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160907/space.jpg&#34; alt=&#34;space&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The balls can be viewed upon two ways. That the balls are the same size and they will seam to be more or less distant from the viewers point of view. i.e.a relation in depth. Or that the balls have different sizes and only relate to one and other.&lt;/p&gt;
-
-&lt;p&gt;The grid in the backgrund will enhance the feeling of depth and give the viewer a better idea of the balls relation to the space. This because the backgrund will work as a object itself.&lt;/p&gt;
-
-&lt;p&gt;In our project the each ball and color can represent a specific devise and the size by the collected amount of bluetooth signals.&lt;/p&gt;
-
-&lt;h3 id=&#34;lecture&#34;&gt;Lecture&lt;/h3&gt;
-
-&lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://ixd-res.clintio.us/&#34;&gt;clint&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://firebase.google.com/&#34;&gt;firebase&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://k3171-test.firebaseapp.com/&#34;&gt;test&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>2016-09-05</title>
-      <link>https://sunflowr.github.io/20162-k3171-journal/post/20160905/</link>
-      <pubDate>Mon, 05 Sep 2016 11:23:20 +0200</pubDate>
-      
-      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20160905/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160905/ble-graphic2.png&#34; alt=&#34;bt-bt smart ready-bt smart&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;ideas&#34;&gt;Ideas&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Avoidance game. BT others is to be avoided.&lt;/li&gt;
-&lt;li&gt;Alien radar thing&lt;/li&gt;
-&lt;li&gt;Blindfold - audio/rumble feedback&lt;/li&gt;
-&lt;li&gt;The more devices the higher amplitude/frequency.&lt;/li&gt;
-&lt;li&gt;Space representation.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;notes&#34;&gt;Notes:&lt;/h3&gt;
-
-&lt;h4 id=&#34;task-bluetooth-explore&#34;&gt;Task: Bluetooth - explore&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Distance&lt;/li&gt;
-&lt;li&gt;Obstruction&lt;/li&gt;
-&lt;li&gt;Get a feeling for material&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;sound&#34;&gt;Sound:&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Molecule movement =&amp;gt; virbrations =&amp;gt; sound&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;difference-ir-vs-bt&#34;&gt;Difference IR vs BT:&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Bluetooth: shorter wavelength =&amp;gt; Through walls, bend&lt;/li&gt;
-&lt;li&gt;Infrared: directional =&amp;gt; Can&amp;rsquo;t go through walls.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;questions&#34;&gt;Questions:&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Where can I find bluetooth?&lt;/li&gt;
-&lt;li&gt;How much bluetooth devices is there in location X? (density)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;discussion-at-14-00&#34;&gt;Discussion at 14.00:&lt;/h4&gt;
-
-&lt;p&gt;Six aspects of coupling:&lt;/p&gt;
-
-&lt;p&gt;time, direction, &amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;Where does it fit in? What can you do?&lt;/p&gt;
-
-&lt;p&gt;Feeling: Stimulation, security, meaning?&lt;/p&gt;
-
-&lt;p&gt;Interactive attribute: What does slow mean to this? Fast? Aspects of bluetooth in the now?&lt;/p&gt;
-
-&lt;p&gt;How do we feel? How can you build something for coupling people at difference spaces?&lt;/p&gt;
-
-&lt;p&gt;Different spaces - how do I feel that I&amp;rsquo;m on 4th floor. Feeling secure while in different places from eachother.&lt;/p&gt;
-
-&lt;h3 id=&#34;links&#34;&gt;Links:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/MahApp/Interactivity&#34;&gt;https://github.com/MahApp/Interactivity&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://console.firebase.google.com/project/locationbt-8cfbc/database/data&#34;&gt;https://console.firebase.google.com/project/locationbt-8cfbc/database/data&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;other-reading&#34;&gt;Other reading:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Received_signal_strength_indication&#34;&gt;RSSI&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.quora.com/How-accurate-is-range-measurement-in-bluetooth-Smart&#34;&gt;BLE range&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;infographics&#34;&gt;Infographics&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160905/ble-indoor-positioning-infsoft.jpg&#34; alt=&#34;bt-bt smart ready-bt smart&#34; /&gt;
-&lt;a href=&#34;http://www.indoornavigation.com/wiki-en/indoor-navigation-using-bluetooth-ble-and-beacons&#34;&gt;http://www.indoornavigation.com/wiki-en/indoor-navigation-using-bluetooth-ble-and-beacons&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160905/gsbl_0101.png&#34; alt=&#34;bt-bt smart ready-bt smart&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     

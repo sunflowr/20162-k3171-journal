@@ -10,6 +10,101 @@
     <atom:link href="https://sunflowr.github.io/20162-k3171-journal/tags/lecture/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Module4 introduction</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20161018/</link>
+      <pubDate>Tue, 18 Oct 2016 22:21:09 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20161018/</guid>
+      <description>
+
+&lt;p&gt;Today we were presented with &lt;em&gt;Module 4&lt;/em&gt; - the last module for the course. The topic for the module is &lt;em&gt;Body and Sound&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Keywords for the modules are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Tightness - The user can see a direct corelation between its interaction and the feedback from the artifact.&lt;/li&gt;
+&lt;li&gt;Ambiguity - Some form of uncertainty in the inner workings, making the artifact feel more alive.&lt;/li&gt;
+&lt;li&gt;Openness - There&amp;rsquo;s no fixed state of the interaction, no start/stop condition. It&amp;rsquo;s always sensing the environment and reacting to it. Much like how we humans and most - if not all - living beings.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Material for the module consist of:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ableton Live with Max for Live&lt;/li&gt;
+&lt;li&gt;Arduino using Firmata sketch&lt;/li&gt;
+&lt;li&gt;Max two analog sensors&lt;/li&gt;
+&lt;li&gt;A few pre-selected audio files.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;idea-generation&#34;&gt;Idea-generation&lt;/h2&gt;
+
+&lt;p&gt;Instructions:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Ideate -&amp;gt; Pick two (sets of) everyday movements.&lt;/li&gt;
+&lt;li&gt;Explore the characteristics of these two (sets of) movements with your body.&lt;/li&gt;
+&lt;li&gt;Choose one set of movements - work with it, identifying 3-5 of the movements characteristics.&lt;/li&gt;
+&lt;li&gt;Make brief description of each of these characteristics.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;movements&#34;&gt;Movements&lt;/h3&gt;
+
+&lt;p&gt;Movements in bold was the once we expanded on.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Shaking hands&lt;/li&gt;
+&lt;li&gt;Opening doors&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Drinking coffee&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Smoking&lt;/li&gt;
+&lt;li&gt;Read/write&lt;/li&gt;
+&lt;li&gt;Flipping pages&lt;/li&gt;
+&lt;li&gt;Put on / taking off shoes&lt;/li&gt;
+&lt;li&gt;Pick up thing from the floor&lt;/li&gt;
+&lt;li&gt;Hugging (man-hug - the awkwardness)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sitting in a office-chair&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Arm-wrestling&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;drinking-coffee&#34;&gt;Drinking coffee&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Holding (the cup)&lt;/li&gt;
+&lt;li&gt;Grabbing&lt;/li&gt;
+&lt;li&gt;Lifting&lt;/li&gt;
+&lt;li&gt;Tilting&lt;/li&gt;
+&lt;li&gt;Rotating&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We thought these were some interesting interactions that we could apply sensors to feel, but after talking to a few other groups it felt like everyone was going to do something similar. So we decided on our other options - sitting in a office chair.&lt;/p&gt;
+
+&lt;h4 id=&#34;sitting-in-a-office-chair&#34;&gt;Sitting in a office-chair&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Spinning (the chair)&lt;/li&gt;
+&lt;li&gt;Leaning left/right/back/forward&lt;/li&gt;
+&lt;li&gt;Sitting down&lt;/li&gt;
+&lt;li&gt;Standing up&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We thought this could be an fun thing were we can play around with how people sit in the chair, like how we all re-position our self from time to time without really thinking about it. We&amp;rsquo;re thinking that we could make the person aware with the way the they use the chair. By sensing how the person lean the chair or position it we could either create a feelings such as power or discomfort by playing with the sounds.&lt;/p&gt;
+
+&lt;h2 id=&#34;tech&#34;&gt;Tech&lt;/h2&gt;
+
+&lt;p&gt;We decided we want to put a sensors for sensing the rotation of the chair as the person using it re-position them self and the chair. We think the most viable solution for this is to stick a potentiometer on the chair and connect it between the two rotating parts of the chair. To stop the potentiometer from breaking if the user would do a 360 turn we&amp;rsquo;ve removed the mechanical part in the potentiometer that stops it from rotating a full turn.&lt;/p&gt;
+
+&lt;p&gt;We also decided on using a accelerometer from TinkerKit as the one provided by the teacher communicate using I2C. The accelerometer provide sensors for the X, Y and Z axis. The idea is to be able to sense the bodily movement of the person using the chair.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20161018/chair_sensors.jpg&#34; alt=&#34;Chair sensors&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.electrokit.com/tinkerkit-accelerometer-2-3-riktningar.51862&#34;&gt;TinkerKit Accelerometer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>2016-09-07 - Project Presentation: Module 1</title>
       <link>https://sunflowr.github.io/20162-k3171-journal/post/20160907/</link>
       <pubDate>Thu, 08 Sep 2016 00:20:20 +0200</pubDate>

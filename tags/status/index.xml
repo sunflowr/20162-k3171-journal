@@ -10,6 +10,68 @@
     <atom:link href="https://sunflowr.github.io/20162-k3171-journal/tags/status/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Sensing the chair</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20161020/</link>
+      <pubDate>Thu, 20 Oct 2016 20:33:10 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20161020/</guid>
+      <description>
+
+&lt;p&gt;Today we fixed with the chair. The idea was to use a typical office chair unfortunately it turns out it was hard to attach the potentiometer to them. After looking around for different solutions to this and talking to the people in the workshop area we found some chairs that we were able to pull apart easier to attach the potentiometer.&lt;/p&gt;
+
+&lt;p&gt;In order to fix the potentiometer to the chair we pulled it apart and took a wooden block and attached it to the chair and drilled a hole for the potentiometer to sit in (see attached photos).&lt;/p&gt;
+
+&lt;p&gt;We had a few ideas on how to the actual connection between the turning part of the chair and the potentiometer. But most of them required much work to get it working. In the end we realized we could just do it similar to how old belt-driven record players work. So we put a elastic around the rotating part and the potentiometer and rely on friction to turn the knob. It seemed to work really well so we went with this idea.&lt;/p&gt;
+
+&lt;p&gt;We quickly realized it was better to attach the accelerometer to the chair instead of the user. It fixed issues regarding how the user would have been limited in the movement by the wires attached to the accelerometer. In this way it also put the focus all on the chair and allowed for more flowing openness for the users. The user now just had to sit down without first having to attach some device before using the artifact.&lt;/p&gt;
+
+&lt;p&gt;After this we finally felt ready to start sketching.&lt;/p&gt;
+
+&lt;h3 id=&#34;sketching&#34;&gt;Sketching&lt;/h3&gt;
+
+&lt;p&gt;Most of todays sketches was about getting to know the sensors and what we can expect from them and how to use them.&lt;/p&gt;
+
+&lt;p&gt;We played around with X and Y axis mostly as we found them very confusing. We expected them to be continuously changing with the movement (or lack of movement). But instead it seemed to give us something that looked more like absolute values that you would expect from a gyroscope. We did lots of tests and felt that this behaviour seemed to happen each time so we decided on using it in this more &amp;ldquo;gyroscopic&amp;rdquo; way, using the values to measure how far the user were leaning in a direction.&lt;/p&gt;
+
+&lt;h3 id=&#34;photos&#34;&gt;Photos&lt;/h3&gt;
+
+&lt;p&gt;Chair full view&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20161020/chair_full.jpg&#34; alt=&#34;Chair full view&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Chair detailed view of potentiometer&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20161020/chair_detail.jpg&#34; alt=&#34;Chair detailed view&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Chair full view of all sensors&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20161020/chair_sensor.jpg&#34; alt=&#34;Chair sensors&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Chair detailed view of all the sensors&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20161020/chair_sensor_detail.jpg&#34; alt=&#34;Chair sensors detailed&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Thursday</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20161019/</link>
+      <pubDate>Wed, 19 Oct 2016 20:44:07 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20161019/</guid>
+      <description>&lt;p&gt;This day I unfortunately had to work from home so only had contact with the other group member through chat. We decided on trying out things on our own and see what we could find.&lt;/p&gt;
+
+&lt;p&gt;As I went and bought the accelerometer the day before I thought I try it out today and see how it behaves. I connected it up to the Arduino and tried it out in Max for Live, connecting it to a few parameters and tried moving it around. It seemed to work fine and it looked like we could work with the values.&lt;/p&gt;
+
+&lt;p&gt;Thought it felt clear that it was important to try it with the correct chair as soon as possible as the way I move it with my hand is much different from the movement you make when re-positioning and leaning on a chair.&lt;/p&gt;
+
+&lt;p&gt;Accelerometer sensor used:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20161019/accelerometer.jpg&#34; alt=&#34;Accelerometer sensor&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Idea generation</title>
       <link>https://sunflowr.github.io/20162-k3171-journal/post/20161005/</link>
       <pubDate>Wed, 05 Oct 2016 19:34:36 +0200</pubDate>
