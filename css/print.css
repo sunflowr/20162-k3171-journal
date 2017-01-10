@@ -1,0 +1,248 @@
+/* Sorry, this file is a bit of a mess right now... */
+/* Menu fix: https://stackoverflow.com/questions/35881998/bootstrap-mobile-menu-button-goes-off-screen-on-phones */
+html, body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+/* I like my fonts BIG */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-size: 20px;
+}
+body {
+  font-size: 20px;
+  font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+}
+/* Typography */
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+    line-height: 1.3;
+    margin: 0.67em 0;
+    font-weight: bold;
+}
+h1 {
+    font-size: 2.5em
+}
+h2 {
+    font-size: 2em
+}
+h3 {
+    font-size: 1.5em
+}
+h4 {
+    font-size: 1.15em
+}
+
+/* Link colors */
+article h1 a,
+article h2 a,
+article h3 a,
+article h4 a,
+article h5 a,
+article h6 a {
+  color: #383838;
+}
+article a {
+  color: #1ABC9C;
+  text-decoration: none;
+}
+article a:hover {
+  text-decoration: underline;
+  color: #117964;
+}
+
+/* Pagination */
+ul.pager li {
+}
+ul.pager li>a {
+  margin: 0 1.5em;
+  padding: 0.5em 0.75em;
+  color: #1ABC9C;
+  border-color: #1ABC9C;
+}
+ul.pager li>a:hover {
+  color: #fff;
+  background-color: #1ABC9C;
+}
+
+/* Navigation */
+.site-nav {
+  margin-bottom: 0;
+}
+.navbar-default .navbar-brand {
+  color: #383838;
+  font-weight: bold;
+  padding-bottom: 2.2rem;
+}
+
+/* Sidebar */
+.sidebar-module {
+  padding: 1rem;
+}
+.sidebar-module-inset {
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-radius: .25rem;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+/* Site header */
+.site-header {
+  background-color: #F98752;
+}
+.site-header a {
+    color: #383838;
+}
+
+/* Article */
+/* List */
+article.li header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+article.li header h1 {
+  font-weight: bold;
+}
+article.li header h1 {
+  margin: 0;
+}
+article.li header .meta {
+    color: rgba(56,56,56,0.5);
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+article.li .date {
+  font-size: .8rem;
+  line-height: 1rem;
+}
+article.li .title {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  margin-bottom: .5rem;
+}
+article.li .tags {
+  display: inline;
+  font-size: 0.6rem;
+  letter-spacing: 0.1rem;
+}
+article.li .body {
+  margin-bottom: 1.5rem;
+}
+article.li {
+  margin-bottom: 4rem;
+}
+/* Single */
+article.single header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+article.single header h1 {
+  font-weight: bold;
+}
+article.single header .meta {
+    color: rgba(56,56,56,0.5);
+    font-size: 0.9rem;
+    letter-spacing: 0.1em;
+    margin: 0;
+    text-transform: uppercase;
+}
+article.single .date {
+  font-size: .8rem;
+  line-height: 1rem;
+}
+article.single .title {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  margin-bottom: .5rem;
+}
+article.single .tags {
+  display: inline;
+  font-size: 0.6rem;
+  letter-spacing: 0.1rem;
+}
+article.single .body {
+  margin-bottom: 1.5rem;
+}
+article.single {
+  margin-bottom: 4rem;
+}
+
+/* Navigation bar icon links */
+.menu-half {
+  display: inline-block !important;
+  /* font-size: 1.8rem; */
+}
+@media (min-width: 768px) {
+  .menu-half>a {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  }
+}
+
+/* Sidebar */
+@media (max-width: 1000px) {
+  .blog-sidebar {
+    display: none;
+  }
+}
+
+
+/** OLD CSS */
+.site-footer {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    color: #858585;
+    font-size: 0.9em;
+}
+
+/* TODO: CLEAN */
+/* article,.comments,.feature-image .post-content,.posts .post-teaser,.site-footer , */
+.call-out, .feature-image {
+  margin: 0;
+  padding: 5% 20%;
+  background-size: cover;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #fff;
+}
+@media (max-width: 1000px) {
+  /* article,.comments,.feature-image .post-content,.posts .post-teaser,.site-footer, */
+  .call-out, .feature-image {
+    padding:7.5% 12.5%;
+    margin: 0;
+  }
+}
+.call-out p:last-child {
+    margin-bottom: 0;
+}
+@media print {
+  .call-out {
+    display: none;
+  }
+  .site-footer {
+    display: none;
+  }
+  .site-header {
+    display: none;
+  }
+  .sidebar-module {
+    display: none;
+  }
+  article.li .tags {
+    display: none;
+  }
+}
+
