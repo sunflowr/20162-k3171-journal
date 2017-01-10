@@ -228,3 +228,21 @@ article.single {
 .call-out p:last-child {
     margin-bottom: 0;
 }
+@media print {
+  .call-out {
+    display: none;
+  }
+  .site-footer {
+    display: none;
+  }
+  .site-header {
+    display: none;
+  }
+  .sidebar-module {
+    display: none;
+  }
+  article.li .tags {
+    display: none;
+  }
+}
+
