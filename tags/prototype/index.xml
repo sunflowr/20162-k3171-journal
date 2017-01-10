@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>20162-K3171 - Interaction Design: Interactivity: Journal</title>
+    <link>https://sunflowr.github.io/20162-k3171-journal/tags/prototype/index.xml</link>
+    <description>Recent content on 20162-K3171 - Interaction Design: Interactivity: Journal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Released under the MIT license&lt;br&gt;Powered by [Hugo](//gohugo.io/) with the [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
+    <atom:link href="https://sunflowr.github.io/20162-k3171-journal/tags/prototype/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Monday</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20161010/</link>
+      <pubDate>Mon, 10 Oct 2016 21:52:03 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20161010/</guid>
+      <description>&lt;p&gt;Sick, working from home.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Almost there</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20161009/</link>
+      <pubDate>Sun, 09 Oct 2016 22:05:43 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20161009/</guid>
+      <description>&lt;p&gt;Got the filtering and scrolling working properly.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Most stuff working</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20161007/</link>
+      <pubDate>Fri, 07 Oct 2016 20:40:23 +0100</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20161007/</guid>
+      <description>&lt;p&gt;Worked more on prototype, got most of the things working today. Had some issues with scrolling to certain post and how to solve it.&lt;/p&gt;
+
+&lt;p&gt;Wondered&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

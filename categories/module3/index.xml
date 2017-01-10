@@ -10,6 +10,78 @@
     <atom:link href="https://sunflowr.github.io/20162-k3171-journal/categories/module3/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Module3 presentation</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20161013/</link>
+      <pubDate>Thu, 13 Oct 2016 19:23:19 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20161013/</guid>
+      <description>
+
+&lt;p&gt;For the presentation we presented how we came to the current design; going from from the initial ideas to how we combined them picking out the essence of what we tried doing - allow the user to move faster through a article based system, something we call &lt;em&gt;fast scroll&lt;/em&gt; or &lt;em&gt;filter scroll&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;We also talked a bit about how we wanted to incorporate force touch to allow for either interacting with comments within the article or as a way to allow for the activation of the functionality any where on the screen rather than having it region-based.&lt;/p&gt;
+
+&lt;h2 id=&#34;presentation&#34;&gt;Presentation&lt;/h2&gt;
+
+&lt;p&gt;The main critic would probably be around if this would have worked with out the very clearly painted touch regions we used in the presentation. This is something that we should have tested to see if it would have caused confusions.&lt;/p&gt;
+
+&lt;p&gt;It could also be argued on how we interpreted &lt;em&gt;nuance&lt;/em&gt;, while we certainly allowed for a nuance in they way the person scrolls between texts, it&amp;rsquo;s not a gradual smooth way. It&amp;rsquo;s more of a step-based approach.&lt;/p&gt;
+
+&lt;p&gt;It would also have been good to test this out in landscape view and evaluate if this is interaction that works in any mode or if the width of the screen makes any difference to the interaction.&lt;/p&gt;
+
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/sunflowr/20162-k3171-module3&#34;&gt;GitHub project&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/stuyam/pressure/&#34;&gt;Pressure.js&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Presentation preparations</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20161012/</link>
+      <pubDate>Wed, 12 Oct 2016 20:50:12 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20161012/</guid>
+      <description>&lt;p&gt;Prepare presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Monday</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20161010/</link>
+      <pubDate>Mon, 10 Oct 2016 21:52:03 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20161010/</guid>
+      <description>&lt;p&gt;Sick, working from home.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Almost there</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20161009/</link>
+      <pubDate>Sun, 09 Oct 2016 22:05:43 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20161009/</guid>
+      <description>&lt;p&gt;Got the filtering and scrolling working properly.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Most stuff working</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20161007/</link>
+      <pubDate>Fri, 07 Oct 2016 20:40:23 +0100</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20161007/</guid>
+      <description>&lt;p&gt;Worked more on prototype, got most of the things working today. Had some issues with scrolling to certain post and how to solve it.&lt;/p&gt;
+
+&lt;p&gt;Wondered&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Idea generation</title>
       <link>https://sunflowr.github.io/20162-k3171-journal/post/20161005/</link>
       <pubDate>Wed, 05 Oct 2016 19:34:36 +0200</pubDate>

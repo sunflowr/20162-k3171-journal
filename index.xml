@@ -269,6 +269,78 @@
     </item>
     
     <item>
+      <title>Module3 presentation</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20161013/</link>
+      <pubDate>Thu, 13 Oct 2016 19:23:19 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20161013/</guid>
+      <description>
+
+&lt;p&gt;For the presentation we presented how we came to the current design; going from from the initial ideas to how we combined them picking out the essence of what we tried doing - allow the user to move faster through a article based system, something we call &lt;em&gt;fast scroll&lt;/em&gt; or &lt;em&gt;filter scroll&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;We also talked a bit about how we wanted to incorporate force touch to allow for either interacting with comments within the article or as a way to allow for the activation of the functionality any where on the screen rather than having it region-based.&lt;/p&gt;
+
+&lt;h2 id=&#34;presentation&#34;&gt;Presentation&lt;/h2&gt;
+
+&lt;p&gt;The main critic would probably be around if this would have worked with out the very clearly painted touch regions we used in the presentation. This is something that we should have tested to see if it would have caused confusions.&lt;/p&gt;
+
+&lt;p&gt;It could also be argued on how we interpreted &lt;em&gt;nuance&lt;/em&gt;, while we certainly allowed for a nuance in they way the person scrolls between texts, it&amp;rsquo;s not a gradual smooth way. It&amp;rsquo;s more of a step-based approach.&lt;/p&gt;
+
+&lt;p&gt;It would also have been good to test this out in landscape view and evaluate if this is interaction that works in any mode or if the width of the screen makes any difference to the interaction.&lt;/p&gt;
+
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/sunflowr/20162-k3171-module3&#34;&gt;GitHub project&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/stuyam/pressure/&#34;&gt;Pressure.js&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Presentation preparations</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20161012/</link>
+      <pubDate>Wed, 12 Oct 2016 20:50:12 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20161012/</guid>
+      <description>&lt;p&gt;Prepare presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Monday</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20161010/</link>
+      <pubDate>Mon, 10 Oct 2016 21:52:03 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20161010/</guid>
+      <description>&lt;p&gt;Sick, working from home.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Almost there</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20161009/</link>
+      <pubDate>Sun, 09 Oct 2016 22:05:43 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20161009/</guid>
+      <description>&lt;p&gt;Got the filtering and scrolling working properly.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Most stuff working</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20161007/</link>
+      <pubDate>Fri, 07 Oct 2016 20:40:23 +0100</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20161007/</guid>
+      <description>&lt;p&gt;Worked more on prototype, got most of the things working today. Had some issues with scrolling to certain post and how to solve it.&lt;/p&gt;
+
+&lt;p&gt;Wondered&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Idea generation</title>
       <link>https://sunflowr.github.io/20162-k3171-journal/post/20161005/</link>
       <pubDate>Wed, 05 Oct 2016 19:34:36 +0200</pubDate>
@@ -513,150 +585,6 @@ One important wire was broken and needed replacement and one vibrator wire neede
 
 &lt;ul&gt;
 &lt;li&gt;The Arduino seem to be able to power all five vibrators without any problem.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Monday all the week</title>
-      <link>https://sunflowr.github.io/20162-k3171-journal/post/20160926/</link>
-      <pubDate>Mon, 26 Sep 2016 21:40:34 +0200</pubDate>
-      
-      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20160926/</guid>
-      <description>
-
-&lt;p&gt;Today&amp;rsquo;s work:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Prototyped the vibration and touch circuits to see if it would work.&lt;/li&gt;
-&lt;li&gt;We&amp;rsquo;re going to use capacitive touches and the &lt;a href=&#34;http://playground.arduino.cc/Main/CapacitiveSensor&#34;&gt;Capacitive Sensing Library&lt;/a&gt; for Arduino to handle this.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;What is socially unacceptable dancing?&lt;/li&gt;
-&lt;li&gt;Acceptable/unacceptable dance roles/moves/behaviours?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;reasoning-of-concept&#34;&gt;Reasoning of concept&lt;/h4&gt;
-
-&lt;p&gt;Social awkwardness + akwardness = hapiness (?)&lt;/p&gt;
-
-&lt;p&gt;Being with people without having anything to talk about&lt;/p&gt;
-
-&lt;h4 id=&#34;target-group&#34;&gt;Target group&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Make the idea clear&lt;/li&gt;
-&lt;li&gt;Make it really negative - push it more&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;issues-thoughts&#34;&gt;Issues / thoughts:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Will the Arduino be able to power all the five vibrators at the same time?&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>2016-09-23</title>
-      <link>https://sunflowr.github.io/20162-k3171-journal/post/20160923/</link>
-      <pubDate>Fri, 23 Sep 2016 20:40:09 +0200</pubDate>
-      
-      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20160923/</guid>
-      <description>&lt;p&gt;Today we mostly gathered the needed material - such as fabric and electronic hardware. Also did some research on how to implement the touch.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Module2 kick-off</title>
-      <link>https://sunflowr.github.io/20162-k3171-journal/post/20160922/</link>
-      <pubDate>Thu, 22 Sep 2016 20:18:08 +0200</pubDate>
-      
-      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20160922/</guid>
-      <description>
-
-&lt;p&gt;Was feeling a bit better today so we meet up to talk about the project and do some initial plan for how we were going to work.&lt;/p&gt;
-
-&lt;p&gt;We decided on going with &amp;ldquo;Social Awkwardness&amp;rdquo;. Being in a environment when you don&amp;rsquo;t know what to talk about or how to get some connection to the other people there. Designing something to break the ice through self-sacrifice.&lt;/p&gt;
-
-&lt;p&gt;We had a bit of brain storming and came up with a few ideas:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Go away jeans - detect when offender try to touch users ass and react to it&lt;/li&gt;
-&lt;li&gt;Clapping glove - a glove that creates a synthesized clapping sound when user claps to exaggerate the clapping.&lt;/li&gt;
-&lt;li&gt;Nice comb - complements you while you&amp;rsquo;re combing your self&lt;/li&gt;
-&lt;li&gt;A dance suit that that with touch and vibration make the user do the macarena dance. &amp;lt;- This is the one we picked&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;dance-suit-thingy&#34;&gt;Dance suit thingy&lt;/h4&gt;
-
-&lt;p&gt;Should have vibrators and some way to feel touch at the same area as the vibrator.&lt;/p&gt;
-
-&lt;h3 id=&#34;notes-from-leture&#34;&gt;Notes from leture&lt;/h3&gt;
-
-&lt;p&gt;I2C physical limit ~40m&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Technology as a mean of expression&lt;/li&gt;
-&lt;li&gt;Body as a mean for communication&lt;/li&gt;
-&lt;li&gt;Interaction as expressive communication&lt;/li&gt;
-&lt;li&gt;Conductive paint as a way to interract&lt;/li&gt;
-&lt;li&gt;Use of skin touching skin (see attached image).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://sunflowr.github.io/20162-k3171-journal/20162-k3171-journal/img/20160922/skintouch.jpg&#34; alt=&#34;Skin touching skin circuit&#34; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Steve_Mann&#34;&gt;Steve Mann, wearables&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/Cyborg-Digital-Possibility-Wearable-Computer/dp/0385658265&#34;&gt;Cyborg: Digital Destiny and Human Possibility in the Age of the Wearable Computer - Book about wearables/cyborgs by Steve&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Moritz_Waldemeyer&#34;&gt;Moritz Waldemeyer, fashion/technology&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Hussein_Chalayan&#34;&gt;Hussein Chalayan, fashion/technology&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Module2 introduction</title>
-      <link>https://sunflowr.github.io/20162-k3171-journal/post/20160921/</link>
-      <pubDate>Wed, 21 Sep 2016 16:48:07 +0200</pubDate>
-      
-      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20160921/</guid>
-      <description>&lt;p&gt;Today was introduction to the new Module, unfortunately I was sick and missed it. Me and Ida decided to work on the module.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Module 1 final thoughts</title>
-      <link>https://sunflowr.github.io/20162-k3171-journal/post/20160920/</link>
-      <pubDate>Tue, 20 Sep 2016 22:07:36 +0200</pubDate>
-      
-      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20160920/</guid>
-      <description>
-
-&lt;p&gt;Yesterday was the presentation. We meet up an hour before to sync and it was discovered that there was some issues in the prototype. Apparently something had changed in the data that we hadn&amp;rsquo;t taken into consideration (a registered device without any discovered devices). After fixing this we had a small sync and some coffee. After that it was time for presentation.&lt;/p&gt;
-
-&lt;h2 id=&#34;presentation&#34;&gt;Presentation&lt;/h2&gt;
-
-&lt;p&gt;While it seemed hard to understand our concept at first, I felt that the audience grasped somewhat in the end what we tried to explore. I guess that we had not found a good way of describing our prototype or the findings. Our concept was a bit abstract and on a meta level where we were more focusing on the idea of space.&lt;/p&gt;
-
-&lt;p&gt;We had some critique on the concepts use of bluetooth which I can in hindsight understand, as we focused more on exploring space and how things are interpreted.&lt;/p&gt;
-
-&lt;h3 id=&#34;things-to-consider-for-the-future&#34;&gt;Things to consider for the future&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;How do we present the findings?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;links&#34;&gt;Links&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/sunflowr/20162-k3171-module1&#34;&gt;github&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://k3171-test.firebaseapp.com/&#34;&gt;app&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

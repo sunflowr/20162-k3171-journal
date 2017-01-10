@@ -59,6 +59,36 @@
     </item>
     
     <item>
+      <title>Module3 presentation</title>
+      <link>https://sunflowr.github.io/20162-k3171-journal/post/20161013/</link>
+      <pubDate>Thu, 13 Oct 2016 19:23:19 +0200</pubDate>
+      
+      <guid>https://sunflowr.github.io/20162-k3171-journal/post/20161013/</guid>
+      <description>
+
+&lt;p&gt;For the presentation we presented how we came to the current design; going from from the initial ideas to how we combined them picking out the essence of what we tried doing - allow the user to move faster through a article based system, something we call &lt;em&gt;fast scroll&lt;/em&gt; or &lt;em&gt;filter scroll&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;We also talked a bit about how we wanted to incorporate force touch to allow for either interacting with comments within the article or as a way to allow for the activation of the functionality any where on the screen rather than having it region-based.&lt;/p&gt;
+
+&lt;h2 id=&#34;presentation&#34;&gt;Presentation&lt;/h2&gt;
+
+&lt;p&gt;The main critic would probably be around if this would have worked with out the very clearly painted touch regions we used in the presentation. This is something that we should have tested to see if it would have caused confusions.&lt;/p&gt;
+
+&lt;p&gt;It could also be argued on how we interpreted &lt;em&gt;nuance&lt;/em&gt;, while we certainly allowed for a nuance in they way the person scrolls between texts, it&amp;rsquo;s not a gradual smooth way. It&amp;rsquo;s more of a step-based approach.&lt;/p&gt;
+
+&lt;p&gt;It would also have been good to test this out in landscape view and evaluate if this is interaction that works in any mode or if the width of the screen makes any difference to the interaction.&lt;/p&gt;
+
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/sunflowr/20162-k3171-module3&#34;&gt;GitHub project&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/stuyam/pressure/&#34;&gt;Pressure.js&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Presentation of Module2</title>
       <link>https://sunflowr.github.io/20162-k3171-journal/post/20160929/</link>
       <pubDate>Fri, 30 Sep 2016 19:08:02 +0200</pubDate>
